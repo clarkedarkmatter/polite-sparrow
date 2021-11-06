@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Influencer"
+title = "Author Todd"
 theme = "influencer hugo"
 summaryLength = "10"
 paginate = 6
