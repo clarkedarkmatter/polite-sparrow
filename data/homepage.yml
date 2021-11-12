@@ -242,7 +242,7 @@ contact:
     - title : "Email Todd"
       icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "startor@support.com"
+        - listItem : "toddschimmell@gmail.com"
         
     # contact Item loop
     - title : "Location"
