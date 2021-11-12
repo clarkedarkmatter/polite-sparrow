@@ -13,7 +13,7 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 googleAnalitycsID = ""
-copyright = "Copyright &copy; 2021 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "Copyright &copy; 2021 [Compassio Veraque](www.darkmatter.works) All Rights Reserved"
 
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
@@ -51,7 +51,7 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
   expire_days = 2
 
   [params.footer]
-  content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  content = "There's nothing we enjoy more than connecting with our readers. Todd loves to hear feedback (even when he doesn't) :)"
 
   [[params.share]]
   title = "facebook"
