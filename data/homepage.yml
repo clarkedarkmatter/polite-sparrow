@@ -239,7 +239,7 @@ contact:
         - listItem : "(812) 455-5793"
         
     # contact Item loop
-    - title : "Email"
+    - title : "Email Todd"
       icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
         - listItem : "startor@support.com"
