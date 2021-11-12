@@ -236,7 +236,7 @@ contact:
     - title : "Call or Text"
       icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "(812)"
+        - listItem : "(812) 455-5793"
         
     # contact Item loop
     - title : "Email"
