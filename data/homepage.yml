@@ -245,7 +245,7 @@ contact:
         - listItem : "toddschimmell@gmail.com"
         
     # contact Item loop
-    - title : "Based in"
+    - title : "Based in:"
       icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
       list:
         - listItem : "397 Lake forest drive street USA"
