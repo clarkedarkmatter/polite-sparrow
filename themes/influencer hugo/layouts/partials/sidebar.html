@@ -1,6 +1,6 @@
 <div class="col-lg-4">
   <div class="sidebar-widget latest-post mb-4 p-4 bg-grey">
-    <h4 class="mb-4">Latest Posts</h4>
+    <h4 class="mb-4">Latest Products & Posts</h4>
     {{ range first 3 (where .Site.RegularPages "Type" "post")}}
     <div class="media border-bottom py-3">
       <a href="{{ .Permalink }}"><img class="mr-4 post-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title | markdownify }}"></a>

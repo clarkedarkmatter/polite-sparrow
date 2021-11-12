@@ -8,7 +8,7 @@ themesDir = "themes"
 publishDir = "public"
 
 [params]
-logo = ""
+logo = "logo.png"
 home = "Home"
 description = "This is meta description"
 author = "Themefisher"

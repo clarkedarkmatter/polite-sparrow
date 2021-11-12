@@ -1,10 +1,10 @@
 ---
-title: "My Awesome Blog Post"
-date: 2019-11-23T15:28:43+06:00
+title: "Hair Stare"
+date: 2017-11-23T15:28:43+06:00
 draft: false
 
 # post author
-author : "themefisher"
+author : "Todd Schimmell"
 
 # post thumb
 image: "images/blog/blog-1.jpg"
@@ -46,4 +46,3 @@ doloribus hic aperiam maiores fugit.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum beatae repellat
 tenetur incidunt quisquam libero dolores laudantium. Nesciunt quis itaque quidem, voluptatem autem eos
 animi laborum iusto expedita sapiente.
-                
