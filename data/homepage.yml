@@ -1,7 +1,7 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "George Stewart"
+  writter : "Author Todd Schimmell"
   title : "Books and Workshops"
   image : "images/about/book.png"
   content : "We work with our partners to streamline project plans that don’t just deliver on
