@@ -1,0 +1,77 @@
+markdown: kramdown
+url: ''
+title: 'DARK MATTER'
+tagline: 'Expand the market, fill the void'
+description: 'Expand the market, fill the void'
+base_url: 'darkmatter.works'
+twitter:
+  username: darkmatter_work
+  card: summary
+logo: '/assets/images/logo.png'
+social:
+  name: Dark Matter
+  links:
+    - https://twitter.com/darkmatter_work
+    - https://www.facebook.com/darkmatterllc
+    - https://www.linkedin.com/company/77294788/
+    - https://github.com/clarkedarkmatter
+site-image: /WhatATheme/assets/images/meta.jpg
+site-keywords: 'Digital'
+favicon: /assets/images/logo_test.ico
+heroimage: >-
+  ''
+email: admin@darkmatter.works
+phone: 812-455-5793
+facebook_username: darkmatterllc
+twitter_username: darkmatter_work
+instagram_username: darkmatter.works
+linkedin_username:
+github_username:
+youtube_channel_id:
+reddit_username:
+behance_username:
+dribbble_username:
+spotify_username:
+google-analytics: G-5Z8DJEKG3R
+disqus-shortname: Dark Matter
+author-name: Dark Matter
+author-image: >-
+  /assets/images/logo.png
+author-about: >-
+  Marketing for the future.
+author-url: ''
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-minifier
+permalink: 'blog/:title'
+compress_html:
+  clippings: all
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      post-image: ''
+      description: ''
+      tags:
+        - ''
+  - scope:
+      type: pages
+    values:
+      layout: page
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,5 +1,5 @@
 ---
-title: "Testing Be"
+title: "Llama Be"
 date: 2021-08-04T15:28:43+06:00
 draft: false
 
@@ -10,14 +10,39 @@ author : "Todd Schimmell"
 image: "images/blog/llama.png"
 
 # meta description
-description: "Llama Be is a fan favorite from Smile and Soul"
+description: "Llama Be reading this one over and over."
 
 # taxonomies
-categories: ["Go Language"]
-tags: ["Photos", "HTML", "Python", "New"]
+categories: ["Posts"]
+tags: ["Smile and Soul", "Llama Be", "Positivity", "New"]
 # post type
 type: "post"
 ---
+
+# Welcome!
+
+
+## I hope you like this.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
+nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officiis perspiciatis, eaque porro ad
+facilis vel amet.
+
+![Tux, the Linux mascot](images/blog/llama.png)
+
+### Llama believe
+### in what I can be.
+
+### Llama be great,
+### Just wait and see!
+
+### But first Llama sit,
+### And have a stay.
+
+### Llama breathe in,<br><br>
+### And enjoy the day.
 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel

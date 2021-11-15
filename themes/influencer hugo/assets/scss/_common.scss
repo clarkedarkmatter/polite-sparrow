@@ -8,9 +8,19 @@ Common Styles
 
 .section {
     position: relative;
-    padding: 8.125rem 0;
+    padding: 1.125rem 0;
 }
 
+.section-preview {
+    position: relative;
+    padding: 2.125rem 0;
+}
+
+@media (min-width:768px) {
+    .section-preview {
+        padding: 1.5rem 0
+    }
+}
 @media (min-width:768px) {
     .section {
         padding: 7.5rem 0
@@ -53,7 +63,7 @@ Common Styles
     text-transform: uppercase;
     padding: 15px 40px;
     border-radius: 35px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: $secondary-font;
     cursor: pointer;
     border: 1px solid transparent;
@@ -202,7 +212,7 @@ a:focus {
 }
 
 #snipcart-title {
-    color: white;
+    color: gold ;
 }
 .snip-layout .snip-btn--highlight {
     color: white !important;

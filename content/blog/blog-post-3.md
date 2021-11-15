@@ -13,7 +13,7 @@ image: "images/blog/blog-1.jpg"
 description: "this is meta description"
 
 # taxonomies
-categories: ["Creative"]
+categories: ["Books"]
 tags: ["Photos", "HTML", "Book", "New"]
 # post type
 type: "post"

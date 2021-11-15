@@ -14,8 +14,8 @@ image: "images/blog/smileandsoul.jpg"
 description: "this is meta description"
 
 # taxonomies
-categories: ["New Book"]
-tags: ["Photos", "HTML", "Book", "New"]
+categories: ["Poems"]
+tags: ["Smile and Soul", "Expression", "Healing"]
 # post type
 type: "post"
 ---

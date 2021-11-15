@@ -11,35 +11,42 @@ banner:
 preview:
   enable : true
   pagePreview:
-    # page preview loop
-    - image : "images/about/preview_reading.jpg"
-    - image : "images/about/book_page2.png"
-    - image : "images/about/book_page.png"
+    # page preview loop HIGHLIGHT Author's Latest WORK
+    - image : "images/about/2.png"
+    - image : "images/about/3.png"
+    - image : "images/about/4.png"
+    - image : "images/about/5.png"
+    - image : "images/about/6.png"
+    - image : "images/about/7.png"
+    - image : "images/about/8.png"
+    - image : "images/about/9.png"
+    - image : "images/about/10.png"
+    - image : "images/about/smileandsoul.png"
 
-  title : "See for Yourself"
+
+  title : "Read a Sample of His Latest Book"
   content : "
-  You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person.
-
-
-  With 6 pubished books and countless readings, workshops and seminars behind him, Todd is expanding his quest for compassion and is looking for partners!"
-
+  You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
   inside:
     # book inside item loop
-    - insideItem : "7 Chapter"
-    - insideItem : "Explained Details"
-    - insideItem : "Clear Understanding"
-    - insideItem : "Best practices"
+    - insideItem : "6 published books"
+    - insideItem : "Writes from "
+    - insideItem : "Reading with your kids or grandkids has never been this fun."
 
   # button
   button:
     enable : true
-    label : "Purchase on Amazon"
-    link : "#"
+    label : "Shop Books"
+    link : "/categories/creative"
 
+  button2:
+      enable : true
+      label : "Book a Workshop"
+      link : "#contact"
 
 ########################## Service ##############################
 service:
-  enable : true
+  enable : false
   serviceItem:
     # service item loop
     - title : "Experience"
@@ -59,14 +66,14 @@ service:
 
 ######################### Quote #############################
 quote:
-  enable : true
+  enable : false
   quote: "It's simply the best guide to making money online ever released which only a fool would ignore."
   quoteBy: "John Smith"
 
 
 ######################### Chapters ##########################
 chapters:
-  enable : true
+  enable : false
   title : "Full Chapter Overview"
   subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
   chapter:
@@ -99,31 +106,31 @@ chapters:
 reviews:
   enable : true
   title : "What people are saying"
-  subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
+  subtitle : "It's no secret Todd's work is creating waves in our communitites. Check out some reviews from readers and youth leaders!"
   review:
     # review item loop
-    - name : "Barrow Hasi"
+    - name : "Dr. Richard Soso"
       image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
+      designation : "School Administrator"
       rating : "five" # rating from one to five
       content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
 
     # review item loop
-    - name : "Nilam Arthur"
+    - name : "Amy Stockton"
       image : "images/client/test-2.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
+      designation : "Parent and grandparent"
       rating : "four" # rating from one to five
       content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
 
     # review item loop
-    - name : "Barrow Hasi"
+    - name : "Rev. Simon Tulltone"
       image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
+      designation : "Reverand from St. Benedict"
       rating : "five" # rating from one to five
       content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
 
     # review item loop
-    - name : "Nilam Arthur"
+    - name : "Friend of Law"
       image : "images/client/test-2.jpg" # image size 80*80 px
       designation : "Sunrise ten"
       rating : "four" # rating from one to five
@@ -132,7 +139,7 @@ reviews:
 
 #################################### device ################################
 devices:
-  enable : true
+  enable : false
   title : "Read it on your favorite device!"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
           commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
@@ -169,12 +176,12 @@ author:
   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
 
   # signature
-  signature : "images/about/2.png"
+  signature : "logo.png"
 
 
 ################################ Awards #####################################
 awards:
-  enable : true
+  enable : false
   title : "We are award winner best selling book among the top rated 10 books!"
   award:
     # award item loop
@@ -197,16 +204,16 @@ awards:
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "Others books by the author"
+  title : "Shop other books by Todd"
   subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
             facere quas blanditiis."
   book:
     # books loop
-    - image : "images/about/smileandsoul.jpg"
+    - image : "images/about/smileandsoul.png"
       link : "/blog/blog-post-2"
 
     # books loop
-    - image : "images/about/b-2.jpg"
+    - image : "images/about/thefunreader.jpg"
       link : "#"
 
     # books loop
@@ -217,10 +224,15 @@ otherBooks:
     - image : "images/about/b-4.jpg"
       link : "#"
 
+bookings:
+  enable : true
+  title : "Book Your Workshop for 2022 "
+  subtitle : "It's no secretodd's work is creating waves in our communitites. Check out some reviews from readers and youth leaders!"
+
 ################################ Blog ###################################
 blog:
   enable : true
-  title : "Our insights and articles"
+  title : "Posts and Products"
   subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
   # blog post comes from 'content/blog'
 
