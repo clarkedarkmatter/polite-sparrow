@@ -1,7 +1,7 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Books & Interactive Workshops"
+  writter : "Books & Reading Workshops"
   title : "Author Todd Schimmell"
   image : "images/about/todd.jpg"
   content : "Todd is a Midwestern author, illustrator, entertainer and youth leader. Writing for the younger version of all of us, Todd uses his voice as a Student Resource Officer and father of 5 to transport us back in time."
@@ -30,14 +30,14 @@ preview:
   inside:
     # book inside item loop
     - insideItem : "6 published books"
-    - insideItem : "Writes from "
-    - insideItem : "Reading with your kids or grandkids has never been this fun."
+    - insideItem : "Writes from the heart"
+    - insideItem : "Reading is finally fun again"
 
   # button
   button:
     enable : true
-    label : "Shop Books"
-    link : "/categories/creative"
+    label : "See More"
+    link : "/blog/blog-post-2"
 
   button2:
       enable : true
@@ -166,9 +166,9 @@ devices:
 ######################################## author #############################
 author:
   enable : true
-  image : "images/about/home-1.jpg"
-  name : "Yasin Arafat"
-  designation : "A technical Writer"
+  image : "images/about/todd.jpg"
+  name : "Todd Schimmell"
+  designation : "Author, illustrator, Student Resource Officer, Leader"
   content : "
   Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
 
