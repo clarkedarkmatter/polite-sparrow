@@ -6,7 +6,7 @@
 <section class="bg-grey py-7" id="banner">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-7 col-md-8">
+      <div class="col-lg-5 col-md-8">
         <div class="main-banner">
           <span class="text-color font-weight-bold">{{ .writter | markdownify }}</span>
           <h1 class="mb-4 mt-2">{{ .title | markdownify }}</h1>
@@ -20,12 +20,12 @@
           data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="/">
           See more<i class="ti-angle-right ml-3"></i>
         </button>-->
-        <a href="#book" class="btn btn-main-2">Shop Books<i class="ti-angle-double-down ml-3"></i></a>
+        <a href="#booking" class="btn btn-main-2">Book a Reading Workshop<i class="ti-book ml-3"></i></a>
         </div>
       </div>
 
       {{ if .image }}
-      <div class="col-lg-5 d-none d-lg-block">
+      <div class="col-lg-7 py-7 d-none d-lg-block">
         <div id="banner-img" class="banner-img pt-5">
           <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
         </div>
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="pt-3 col-lg-7">
+      <div class="py-7 col-lg-7">
         <div class="section-heading book-info pt-mt-5">
           <h2 class="text-lg mb-4">{{ .title | markdownify }}</h2>
           {{ .content | markdownify }}
@@ -158,7 +158,7 @@
 <!-- Review-->
 {{ if .Site.Data.homepage.reviews.enable }}
 {{ with .Site.Data.homepage.reviews }}
-<section class="py-5 section-bottom testimonial" id="review">
+<section class="py-5 section-bottom border-top testimonial" id="review">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-12">
@@ -199,10 +199,70 @@
 {{ end }}
 {{ end }}
 
+<!-- Latest blog -->
+{{ if .Site.Data.homepage.blog.enable }}
+<section class="section blog-home border-top" id="blog">
+  <div class="container">
+    {{ with .Site.Data.homepage.blog }}
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-heading text-center">
+          <h2 class="text-lg mb-3">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="row">
+      {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+      <div class="col-lg-4 col-md-6 col-sm-6">
+      {{ .Render "post"}}
+      </div>
+      {{ end }}
+    </div>
+    <div class="text-center mt-5">
+      <a href="/blog" class="btn btn-main-2">See Todd's Latest Posts</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Book a workshop Section -->
+{{ with .Site.Data.homepage.bookings }}
+<div id="booking" class="py-7 container">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-md-12">
+      <div class="section-heading text-center">
+        <h1 class="">{{ .title | markdownify }}</h1>
+        <p>{{ .subtitle | markdownify }}</p>
+
+      </div>
+    </div>
+  </div>
+  {{ end }}
+<br>
+<div class="border-top pt-5" id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/e26473ebeef4f23755b01a64690b7a83?embedded=1"></div>
+
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
+
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
+
 <!-- Others books -->
 {{ if .Site.Data.homepage.otherBooks.enable }}
 {{ with .Site.Data.homepage.otherBooks }}
-<section class="section others-book" id="otherBooks">
+<section class="border-top section others-book" id="otherBooks">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6">
@@ -331,69 +391,10 @@
 {{ end }}
 
 
-<!-- Book a workshop Section -->
-{{ with .Site.Data.homepage.bookings }}
-<div class="py-7 container">
-  <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-12">
-      <div class="section-heading text-center">
-        <h1 class="">{{ .title | markdownify }}</h1>
-      </div>
-    </div>
-  </div>
-  {{ end }}
-<div class="" id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/b2ea26f5efdf0b0d7417542c7514ffc4?embedded=1"></div>
-<!-- form -->
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
-
-<!-- Get notified when the form is submitted, add your own code below: -->
-<script>
-const formkeepEmbed = document.querySelector('#formkeep-embed')
-
-formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
-  console.log('Submitting form...')
-})
-
-formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
-  console.log('Submitted form...')
-})
-</script>
-
-
-<!-- Latest blog -->
-{{ if .Site.Data.homepage.blog.enable }}
-<section class="section blog-home border-top" id="blog">
-  <div class="container">
-    {{ with .Site.Data.homepage.blog }}
-    <div class="row justify-content-center">
-      <div class="col-lg-6">
-        <div class="section-heading text-center">
-          <h2 class="text-lg mb-3">{{ .title | markdownify }}</h2>
-          <p>{{ .subtitle | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-    <div class="row">
-      {{ range first 3 (where .Site.RegularPages "Type" "post")}}
-      <div class="col-lg-4 col-md-6 col-sm-6">
-      {{ .Render "post"}}
-      </div>
-      {{ end }}
-    </div>
-    <div class="text-center mt-5">
-      <a href="/blog" class="btn btn-main">All Post</a>
-    </div>
-  </div>
-</section>
-{{ end }}
-
-
 <!-- Other contact -->
 {{ if .Site.Data.homepage.contact.enable }}
 {{ with .Site.Data.homepage.contact }}
-<section class="section contact bg-grey" id="contact">
+<section class="py-7" id="contact">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12 col-lg-8">

@@ -1,7 +1,6 @@
 ---
-title: "Blog"
+title: "Welcome!"
 date: 2019-11-23T15:28:43+06:00
 draft: false
-description: "This is meta description"
+description: "All of the latest with Todd's work in the community."
 ---
-

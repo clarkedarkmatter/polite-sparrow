@@ -14,12 +14,24 @@
                 <span class="text-black mr-3">by {{ .Params.Author }}</span>
               </div>
               {{ .Content }}
+              <br>
+              {{ if .Params.book }}
+                <h2>{{ .Params.price }}</h2>
+                <button class="snipcart-add-item btn btn-main-2 btn-small ml-0 ml-lg-3 mb-3 mb-lg-0" data-item-id="1"
+                data-item-name="{{ .Params.Post | markdownify }}" data-item-image="{{ .Site.Data.homepage.banner.image | absURL }}" data-item-price="{{ .Site.Data.homepage.banner.price }}" data-item-url="/">
+                Add to Cart
+              </button>
+             {{ else if .Params.event }}
+             <a href="/#footer-book"><button class="btn btn-main-2">Book a Workshop</button></a>
+             {{ else }}
+             <a href="/categories/books"><button class="btn btn-main-2">Shop Books</button></a>
+             {{ end }}
             </div>
           </div>
           <div class="col-lg-12 mb-5">
             <ul class="list-inline share">
               <li class="lis-inline-item">
-                <h4>Share now :</h4>
+                <h4>Share now:</h4>
               </li>
               {{ range .Site.Params.share }}
               <li class="list-inline-item mb-2 mb-lg-0"><a href="#" target="_blank"><i class="{{ .icon }} mr-2" aria-hidden="true"></i>{{ .name }}</a></li>

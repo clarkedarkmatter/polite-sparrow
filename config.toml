@@ -51,7 +51,7 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
   expire_days = 2
 
   [params.footer]
-  content = "There's nothing we enjoy more than connecting with our readers. Todd loves to hear feedback (even when he doesn't) :)"
+  content = "There's nothing Todd enjoys more than staying connected to readers."
 
   [[params.share]]
   title = "facebook"
@@ -66,20 +66,15 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
   [[params.share]]
   title = "linkedin"
   icon = "ti-linkedin"
-  link = "#"
-
-  [[params.share]]
-  title = "github"
-  icon = "ti-github"
-  link = "#"
+  link = ""
 
 [[menu.main]]
-name = "About"
+name = "Books"
 URL = "book"
 weight = 1
 
 [[menu.main]]
-name = "Chapter"
+name = "Events"
 URL = "chapter"
 weight = 2
 
@@ -89,16 +84,11 @@ URL = "review"
 weight = 3
 
 [[menu.main]]
-name = "Author"
+name = "About"
 URL = "author"
 weight = 4
 
 [[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 5
-
-[[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 5

@@ -3,7 +3,7 @@ banner:
   enable : true
   writter : "Books & Reading Workshops"
   title : "Author Todd Schimmell"
-  image : "images/about/todd.jpg"
+  image : "images/about/todd_read.jpg"
   content : "Todd is a Midwestern author, illustrator, entertainer and youth leader. Writing for the younger version of all of us, Todd uses his voice as a Student Resource Officer and father of 5 to transport us back in time."
   price : "14.99"
 
@@ -24,19 +24,19 @@ preview:
     - image : "images/about/smileandsoul.png"
 
 
-  title : "Read a Sample of His Latest Book"
+  title : "Read a sample of his latest work, Smile and Soul"
   content : "
-  You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
+  Click to read the first few stories. You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
   inside:
     # book inside item loop
-    - insideItem : "6 published books"
-    - insideItem : "Writes from the heart"
-    - insideItem : "Reading is finally fun again"
+    - insideItem : "Over 100 stories in all."
+    - insideItem : "Incredibly good for bedtime stories!"
+    - insideItem : "Parents AND children love this one."
 
   # button
   button:
     enable : true
-    label : "See More"
+    label : "Add to Cart"
     link : "/blog/blog-post-2"
 
   button2:
@@ -105,8 +105,8 @@ chapters:
 ########################## Revews ###########################
 reviews:
   enable : true
-  title : "What people are saying"
-  subtitle : "It's no secret Todd's work is creating waves in our communitites. Check out some reviews from readers and youth leaders!"
+  title : "What the community is saying"
+  subtitle : "It's no secret Todd's work and larger than life. Check out some reviews from readers and youth leaders!"
   review:
     # review item loop
     - name : "Dr. Richard Soso"
@@ -168,7 +168,7 @@ author:
   enable : true
   image : "images/about/todd.jpg"
   name : "Todd Schimmell"
-  designation : "Author, illustrator, Student Resource Officer, Leader"
+  designation : "Father, Author, Illustrator, Student Resource Officer, Youth Leader"
   content : "
   Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
 
@@ -210,11 +210,11 @@ otherBooks:
   book:
     # books loop
     - image : "images/about/smileandsoul.png"
-      link : "/blog/blog-post-2"
+      link : "/blog/smile-and-soul"
 
     # books loop
     - image : "images/about/thefunreader.jpg"
-      link : "#"
+      link : "/blog/the-fun-reader"
 
     # books loop
     - image : "images/about/b-3.jpg"
@@ -226,14 +226,15 @@ otherBooks:
 
 bookings:
   enable : true
-  title : "Book Your Workshop for 2022 "
-  subtitle : "It's no secretodd's work is creating waves in our communitites. Check out some reviews from readers and youth leaders!"
+  title : "Book A Workshop"
+  subtitle : "Author Todd brings his presentation to your organization.
+  Normally held in classrooms, churches, libraries, or bookstores - contact us about a date today!"
 
 ################################ Blog ###################################
 blog:
   enable : true
-  title : "Posts and Products"
-  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+  title : "The Latest"
+  subtitle : "Home to book details and descriptions, event pictures, new poems and more! A good place to explore what Author Todd does."
   # blog post comes from 'content/blog'
 
 ################################# Contact ##############################

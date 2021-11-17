@@ -12,11 +12,15 @@ image: "images/blog/blog-1.jpg"
 # meta description
 description: "this is meta description"
 
+
 # taxonomies
-categories: ["Books"]
+categories: ["Poems"]
 tags: ["Photos", "HTML", "Book", "New"]
 # post type
 type: "post"
+book: ""
+posts: "x"
+event: ""
 ---
 
 

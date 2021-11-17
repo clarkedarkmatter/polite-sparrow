@@ -29,18 +29,23 @@
 
           {{ range .Site.Menus.main }}
           <li class="nav-item">
-            <a class="nav-link smoth-scroll" href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-link smoth-scroll" href="#{{ .URL }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
         </ul>
 
         {{ if .Site.Params.navButton.enable }}
-        {{ "<!-- nav btn -->" | safeHTML }}
-          <button class="snipcart-add-item btn btn-border-tp btn-small ml-0 ml-lg-3 mb-3 mb-lg-0" data-item-id="1"
-          data-item-name="{{ .Site.Data.homepage.banner.title | markdownify }}" data-item-image="{{ .Site.Data.homepage.banner.image | absURL }}" data-item-price="{{ .Site.Data.homepage.banner.price }}" data-item-url="/">
-          Purchase now
-        </button>
+        
+        {{ if .IsHome }}
+        <a href="/#booking"><button class="btn btn-main-2 btn-small ml-0 ml-lg-3 mb-3 mb-lg-0">
+        Book a Workshop
+        </button></a>
+        {{ else }}
+        <a href="/#book-footer"><button class="btn btn-main-2 btn-small ml-0 ml-lg-3 mb-3 mb-lg-0">
+        Book a Workshop
+        </button></a>
+        {{ end }}
         {{ end }}
       </div>
     </div>

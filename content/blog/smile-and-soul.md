@@ -13,11 +13,16 @@ image: "images/blog/smileandsoul.jpg"
 # meta description
 description: "this is meta description"
 
+price: "$29.99"
+
 # taxonomies
-categories: ["Poems"]
+categories: ["Books"]
 tags: ["Smile and Soul", "Expression", "Healing"]
 # post type
 type: "post"
+book: "x"
+post: ""
+event: ""
 ---
 
 Smile and Soul is Author Todd's latest book, and quite frankly, one of his best! The characters really come to life and the stories are perfect for the adventurous reader.
