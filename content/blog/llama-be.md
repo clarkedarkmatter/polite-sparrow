@@ -1,5 +1,5 @@
 ---
-title: "Llama Be"
+title: "Winslow Elementary"
 date: 2021-08-04T15:28:43+06:00
 draft: false
 
@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "images/blog/llama.png"
+image: "/images/blog/llama-be/257494632_413031503819458_1409146105214305565_n.jpg"
 
 # meta description
 description: "Llama Be reading this one over and over."
@@ -19,55 +19,18 @@ tags: ["Smile and Soul", "Llama Be", "Positivity", "New"]
 type: "post"
 ---
 
-# Welcome!
+### Pictures from my visit to Winslow Elementary School.
+***
+Thank you again for having me out. I had the **best** time and I hope it showed in laughter and giggles!
+
+I can customize my presentation to discuss any topics using my poems and books, or I can just visit to provide the silly!
+***
+***
+{{< gallery-slider dir="/images/blog/llama-be/" auto-slide="4000" height="500px" width="100%" >}}
+***
+***
+### Scroll down - [or click here](#book-footer) - to request info regarding your next event!
 
 
-## I hope you like this.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
-nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officiis perspiciatis, eaque porro ad
-facilis vel amet.
-
-![Tux, the Linux mascot](images/blog/llama.png)
-
-### Llama believe
-### in what I can be.
-
-### Llama be great,
-### Just wait and see!
-
-### But first Llama sit,
-### And have a stay.
-
-### Llama breathe in,<br><br>
-### And enjoy the day.
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
-nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,
-nam voluptate in beatae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officiis perspiciatis, eaque porro ad
-facilis vel amet. Pariatur eligendi odio voluptatem provident modi eos, perferendis quas delectus.
-Dolore, quo. Ad.
-
-
-> A brand for a company is like a reputation for a person. You earn reputation by
-trying to do hard things well.
-
-## We are leading industry to build your career
-
-The same is true as we experience the emotional sensation of
-stress from our first instances of social rejection ridicule. We quickly learn to fear and thus
-automatically.
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi
-laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in,
-doloribus hic aperiam maiores fugit.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum beatae repellat
-tenetur incidunt quisquam libero dolores laudantium. Nesciunt quis itaque quidem, voluptatem autem eos
-animi laborum iusto expedita sapiente.
+#### #LoveHardToday #SmileandSoul #dreambig
