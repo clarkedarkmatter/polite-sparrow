@@ -1,5 +1,5 @@
 ---
-title: "Winslow Elementary"
+title: "Reading to Winslow Elementary"
 date: 2021-08-04T15:28:43+06:00
 draft: false
 
@@ -10,11 +10,11 @@ author : "Todd Schimmell"
 image: "/images/blog/llama-be/257494632_413031503819458_1409146105214305565_n.jpg"
 
 # meta description
-description: "Llama Be reading this one over and over."
+description: "Author Todd reads some new and old work to a great audience at Winslow Elementary."
 
 # taxonomies
 categories: ["Posts"]
-tags: ["Smile and Soul", "Llama Be", "Positivity", "New"]
+tags: ["Readings", "Elementary", "Togetherness", "New"]
 # post type
 type: "post"
 ---
