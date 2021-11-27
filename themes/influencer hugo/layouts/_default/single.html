@@ -16,13 +16,18 @@
               {{ .Content }}
               <br>
               {{ if .Params.book }}
-                <h2>{{ .Params.price }}</h2>
-                <button class="snipcart-add-item btn btn-main-2 btn-small ml-0 ml-lg-3 mb-3 mb-lg-0" data-item-id="1"
-                data-item-name="{{ .Params.Post | markdownify }}" data-item-image="{{ .Site.Data.homepage.banner.image | absURL }}" data-item-price="{{ .Site.Data.homepage.banner.price }}" data-item-url="/">
-                Add to Cart
-              </button>
+                <h2>${{ .Params.price }}</h2>
+                <button class="snipcart-add-item btn btn-main-2"
+                data-item-id="starry-night"
+                data-item-price="{{ .Params.price }}"
+                data-item-url="/paintings/starry-night"
+                data-item-description="{{ .Params.description }}"
+                data-item-image="/assets/images/starry-night.jpg"
+                data-item-name="{{ .Params.author }}">
+                Add to cart
+                </button>
              {{ else if .Params.event }}
-             <a href="/#footer-book"><button class="btn btn-main-2">Book a Workshop</button></a>
+             <a href="/#booking"><button class="btn btn-main-2">Book a Workshop</button></a>
              {{ else }}
              <a href="/categories/books"><button class="btn btn-main-2">Shop Books</button></a>
              {{ end }}

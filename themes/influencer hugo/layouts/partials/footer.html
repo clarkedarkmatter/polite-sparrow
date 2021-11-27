@@ -5,26 +5,6 @@
   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 
-<!-- Book a workshop Form -->
-<div id="book-footer">
-<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/e26473ebeef4f23755b01a64690b7a83?embedded=1"></div>
-
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
-
-<!-- Get notified when the form is submitted, add your own code below: -->
-<script>
-const formkeepEmbed = document.querySelector('#formkeep-embed')
-
-formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
-  console.log('Submitting form...')
-})
-
-formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
-  console.log('Submitted form...')
-})
-</script>
-</div>
 <footer class="footer">
   <div class="container">
     <div class="row justify-content-between align-items-center">
@@ -43,7 +23,7 @@ formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
 
       <div class="col-lg-6">
         <div class="subscribe">
-          <h4 class="mb-4">Get 25% OFF coupon when you subscribe!</h4>
+          <h4 class="mb-4">Join a great community and get a welcome gift for subscribing.</h4>
             <!-- Begin Mailchimp Signup Form -->
 
 <div id="mc_embed_signup">
@@ -88,7 +68,7 @@ formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
   data-api-key="M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"></script>
 <script>
   Snipcart.execute('registerLocale', 'en', {
-    powered_by: "{{ .Site.Params.Author }}"
+    powered_by: "Dark Matter"
   });
 </script>
 

@@ -1,32 +1,34 @@
 ---
-title: "Hair Stare"
-date: 2017-11-23T15:28:43+06:00
+title: "The Book That Stunk"
+date: 2019-11-23T15:28:43+06:00
 draft: false
+description: "This is The Book That Stunk"
 
 # post author
-author : "Todd Schimmell"
+author : "Author Todd"
 
 # post thumb
-image: "images/blog/blog-1.jpg"
+image: "images/about/the-book-that-stunk-2.png"
 
 # meta description
 description: "this is meta description"
 
+price: "$29.99"
 
 # taxonomies
-categories: ["Poems"]
-tags: ["Photos", "HTML", "Book", "New"]
+categories: ["Books"]
+tags: ["Expression", "Healing"]
 # post type
 type: "post"
-book: ""
-posts: "x"
+book: "x"
+post: ""
 event: ""
 ---
+---
 
+![blog_image](/images/about/thefunreader.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
-nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,
-nam voluptate in beatae.
+Smile and Soul is Author Todd's latest book, and quite frankly, one of his best! The characters really come to life and the stories are perfect for the adventurous reader.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officiis perspiciatis, eaque porro ad
 facilis vel amet. Pariatur eligendi odio voluptatem provident modi eos, perferendis quas delectus.
@@ -36,12 +38,15 @@ Dolore, quo. Ad.
 > A brand for a company is like a reputation for a person. You earn reputation by
 trying to do hard things well.
 
+
+
 ## We are leading industry to build your career
 
 The same is true as we experience the emotional sensation of
 stress from our first instances of social rejection ridicule. We quickly learn to fear and thus
 automatically.
 
+![Tux, the Linux mascot](images/blog/smileandsoul.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi
 laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in,

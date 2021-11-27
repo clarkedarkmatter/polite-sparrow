@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "localhost:1313"
 languageCode = "en-us"
 title = "Author Todd"
 theme = "influencer hugo"
@@ -70,12 +70,12 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
 
 [[menu.main]]
 name = "Books"
-URL = "book"
+URL = "otherBooks"
 weight = 1
 
 [[menu.main]]
-name = "Events"
-URL = "chapter"
+name = "Posts"
+URL = "blog"
 weight = 2
 
 [[menu.main]]

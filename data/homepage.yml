@@ -12,26 +12,26 @@ preview:
   enable : true
   pagePreview:
     # page preview loop HIGHLIGHT Author's Latest WORK
-    - image : "images/about/2.png"
-    - image : "images/about/3.png"
-    - image : "images/about/4.png"
-    - image : "images/about/5.png"
-    - image : "images/about/6.png"
-    - image : "images/about/7.png"
-    - image : "images/about/8.png"
-    - image : "images/about/9.png"
-    - image : "images/about/10.png"
+    - image : "images/about/smile-and-soul/2.png"
+    - image : "images/about/smile-and-soul/3.png"
+    - image : "images/about/smile-and-soul/4.png"
+    - image : "images/about/smile-and-soul/5.png"
+    - image : "images/about/smile-and-soul/6.png"
+    - image : "images/about/smile-and-soul/7.png"
+    - image : "images/about/smile-and-soul/8.png"
+    - image : "images/about/smile-and-soul/9.png"
+    - image : "images/about/smile-and-soul/10.png"
     - image : "images/about/smileandsoul.png"
 
 
-  title : "Read a sample of his latest work, Smile and Soul"
+  title : "Read a sample of his latest book, Smile and Soul"
   content : "
-  Click to read the first few stories. You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
+  Available now through this website or on Amazon. You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
   inside:
     # book inside item loop
     - insideItem : "Over 100 stories in all."
-    - insideItem : "Incredibly good for bedtime stories!"
-    - insideItem : "Parents AND children love this one."
+    - insideItem : "Perfect as a for bedtime stories!"
+    - insideItem : "Available now by clicking below."
 
   # button
   button:
@@ -105,36 +105,36 @@ chapters:
 ########################## Revews ###########################
 reviews:
   enable : true
-  title : "What the community is saying"
-  subtitle : "It's no secret Todd's work and larger than life. Check out some reviews from readers and youth leaders!"
+  title : "What Readers Are Saying"
+  subtitle : "It's no secret Todd's work and larger than life. Check out some real reviews from readers of Smile and Soul!"
   review:
     # review item loop
-    - name : "Dr. Richard Soso"
+    - name : "Taylor Burns"
       image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "School Administrator"
+      designation : "Reader"
       rating : "five" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      content : "I’m a huge fan of Shel Silverstein and this took me way back to reading his books in the library as a kid! I’m almost 30 and these stories had my giggling like a little girl."
 
     # review item loop
-    - name : "Amy Stockton"
+    - name : "Janine Patterson"
       image : "images/client/test-2.jpg" # image size 80*80 px
       designation : "Parent and grandparent"
-      rating : "four" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
-
-    # review item loop
-    - name : "Rev. Simon Tulltone"
-      image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "Reverand from St. Benedict"
       rating : "five" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      content : "Such an adorable, well drawn and written book! You and your kids will both love it!!"
 
     # review item loop
-    - name : "Friend of Law"
+    - name : "Courtnie B"
       image : "images/client/test-2.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
-      rating : "four" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      designation : "Verified Purchase"
+      rating : "five" # rating from one to five
+      content : " This book was so much fun to read with my 5 y/o! She loved the silliness and has asked to read it again and again!"
+
+    # review item loop
+    - name : "RSMS"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Verified Purchase"
+      rating : "five" # rating from one to five
+      content : "Entertaining from cover to cover!"
 
 
 #################################### device ################################
@@ -170,11 +170,16 @@ author:
   name : "Todd Schimmell"
   designation : "Father, Author, Illustrator, Student Resource Officer, Youth Leader"
   content : "
-  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+  Todd Schimmell is happily married father of 4 children. He was born, raised, and currently resides in Southern Indiana.
 
 
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
 
+  He and his wife are the owners of Compassio Veraque LLC; a small midwest publishing company. Todd writes/illustrates poetry and children's books.
+
+
+  The goal of Compassio Veraque LLC is create books for the whole family to enjoy!
+
+  "
   # signature
   signature : "logo.png"
 
@@ -204,31 +209,41 @@ awards:
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "Shop other books by Todd"
-  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
-            facere quas blanditiis."
+  title : "All books by Author Todd"
+  subtitle : "Author Todd has published 6 books in total. Stay tuned for his first 2022 release!"
   book:
-    # books loop
-    - image : "images/about/smileandsoul.png"
-      link : "/blog/smile-and-soul"
+
 
     # books loop
     - image : "images/about/thefunreader.jpg"
       link : "/blog/the-fun-reader"
 
     # books loop
-    - image : "images/about/b-3.jpg"
-      link : "#"
+    - image : "images/about/the-book-that-stunk-2.png"
+      link : "/blog/the-book-that-stunk"
+
 
     # books loop
-    - image : "images/about/b-4.jpg"
-      link : "#"
+    - image : "images/about/nursery-rhymes-vol-1.jpg"
+      link : "/blog/nursery-rhymes-vol-1"
+
+    # books loop
+    - image : "images/about/nursery-rhymes-vol-2.jpg"
+      link : "/blog/nursery-rhymes-vol-2.jpg"
+
+    # books loop
+    - image : "images/about/pass-the-time.jpg"
+      link : "/blog/pass-the-time"
+
+    # books loop
+    - image : "images/about/smile-and-soul.jpg"
+      link : "/blog/smile-and-soul"
 
 bookings:
   enable : true
   title : "Book A Workshop"
-  subtitle : "Author Todd brings his presentation to your organization.
-  Normally held in classrooms, churches, libraries, or bookstores - contact us about a date today!"
+  subtitle : "Author Todd brings his presentation to you. From classrooms to bookstores, Todd brings lessons for us all.
+  "
 
 ################################ Blog ###################################
 blog:
@@ -241,7 +256,7 @@ blog:
 contact:
   enable : true
   title : "Contact Us"
-  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  subtitle : "We'd love to hear from you."
   contactItem:
     # contact Item loop
     - title : "Call or Text"

@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "images/blog/llama.png"
+image: "images/blog/llama-be.png"
 
 # meta description
 description: "Llama Be is a fan favorite from Smile and Soul"

@@ -21,7 +21,7 @@
           {{ if .IsHome }}
           {{ range .Site.Menus.main }}
           <li class="nav-item">
-            <a class="nav-link smoth-scroll" href="#{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-link smoth-scroll" href="/#{{ .URL }}">{{ .Name }}</a>
           </li>
           {{ end }}
 
@@ -29,20 +29,20 @@
 
           {{ range .Site.Menus.main }}
           <li class="nav-item">
-            <a class="nav-link smoth-scroll" href="#{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-link smoth-scroll" href="/#{{ .URL }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
         </ul>
 
         {{ if .Site.Params.navButton.enable }}
-        
+
         {{ if .IsHome }}
         <a href="/#booking"><button class="btn btn-main-2 btn-small ml-0 ml-lg-3 mb-3 mb-lg-0">
         Book a Workshop
         </button></a>
         {{ else }}
-        <a href="/#book-footer"><button class="btn btn-main-2 btn-small ml-0 ml-lg-3 mb-3 mb-lg-0">
+        <a href="/#booking"><button class="btn btn-main-2 btn-small ml-0 ml-lg-3 mb-3 mb-lg-0">
         Book a Workshop
         </button></a>
         {{ end }}

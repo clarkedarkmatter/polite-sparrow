@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "/images/blog/llama-be/257494632_413031503819458_1409146105214305565_n.jpg"
+image: "/images/blog/winslow/winslow-hero.jpg"
 
 # meta description
 description: "Author Todd reads some new and old work to a great audience at Winslow Elementary."
@@ -27,7 +27,7 @@ event: "x"
 I can customize my presentation to discuss any topics using my poems and books, or I can just visit to provide the silly!
 ***
 ***
-{{< gallery-slider dir="/images/blog/llama-be/" auto-slide="4000" height="500px" width="100%" >}}
+{{< gallery-slider dir="/images/blog/winslow/" auto-slide="4000" height="500px" width="100%" >}}
 ***
 ***
 ### Scroll down - [or click here](#book-footer) - to request info regarding your next event!
