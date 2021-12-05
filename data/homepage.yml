@@ -205,21 +205,34 @@ awards:
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "Books by Author Todd"
-  subtitle : "Author Todd has published 6 books in total. Browse them here."
+  title : "More books by Author Todd"
+  subtitle : "Author Todd has published 6 books in total. Click to read previews of each."
   book:
 
     # books loop
-    - image : "images/about/thefunreader.jpg"
+    - image : "images/blog/the-fun-reader/1.png"
       link : "/blog/the-fun-reader"
 
     # books loop
-    - image : "images/about/the-book-that-stunk-2.png"
+    - image : "images/blog/the-book-that-stunk/1.png"
       link : "/blog/the-book-that-stunk"
 
     # books loop
-    - image : "images/about/pass-the-time.jpg"
+    - image : "images/blog/pass-the-time/1.png"
       link : "/blog/pass-the-time"
+
+    # books loop
+    - image : "images/blog/smile-and-soul/1.png"
+      link : "/blog/smile-and-soul"
+
+    # books loop
+    - image : "images/blog/nursery-rhymes/1.png"
+      link : "/blog/nursery-rhymes/"
+
+    # books loop
+    - image : "images/blog/nursery-rhymes-vol-2/1.png"
+      link : "/blog/nursery-rhymes-vol-2/"
+
 
 bookings:
   enable : true

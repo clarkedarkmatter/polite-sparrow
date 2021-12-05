@@ -13,7 +13,7 @@ author : "Todd Schimmell"
 afflink: "https://amzn.to/2Ylnec3"
 image: "images/about/thefunreader.jpg"
 price: "15.00"
-url: "/blog/the-fun-reader"
+url: "https://polite-sparrow-6cfec.netlify.app/blog/the-fun-reader"
 
 # taxonomies
 categories: ["Books"]
@@ -30,7 +30,7 @@ event: ""
 
 ---
 ## Read a sample:
-{{< gallery-slider dir="/images/blog/smile-and-soul/" auto-slide="20000" height="700px" width="330px" >}}
+{{< gallery-slider dir="/images/blog/the-fun-reader/" auto-slide="20000" height="500px" width="350px" >}}
 
 > #2,761 in Children's Interactive Adventures
 

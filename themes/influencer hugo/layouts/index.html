@@ -21,7 +21,8 @@
           See more<i class="ti-angle-right ml-3"></i>
         </button>-->
         <div class="text-center mt-5">
-          <a href="#blog" class="btn btn-main-2">See Todd's Latest Events</a>
+          <a href="#blog" class="btn btn-main-2">Shop Books  <i class="ti-book"></i></a>
+
         </div>
 
         </div>
@@ -75,7 +76,7 @@
           </ul>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }}</a>
+          <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }}<i class="ti-arrow-right"></i></a>
           {{ end }}
 
           {{ end }}
@@ -216,19 +217,20 @@
     </div>
     {{ end }}
     <div class="row">
-      {{ range first 3 (where .Site.RegularPages "Type" "post-front")}}
+      {{ range first 4 (where .Site.RegularPages "Type" "post")}}
       <div class="col-lg-3 col-md-6 col-sm-6">
       {{ .Render "post"}}
       </div>
       {{ end }}
     </div>
     <div class="text-center mt-5">
-      <a href="/blog" class="btn btn-main-2">See Todd's Latest Posts</a>
+      <a href="/blog" class="btn btn-main-2">See Todd's Latest Posts<i class="ti-arrow-right"></i></a>
     </div>
   </div>
 </section>
 {{ end }}
 
+<hr>
 <!-- Others books -->
 {{ if .Site.Data.homepage.otherBooks.enable }}
 {{ with .Site.Data.homepage.otherBooks }}
@@ -249,14 +251,14 @@
         <div class="book-item py-4 mb-4 mb-lg-0">
           <img src="{{ .image | relURL }}" alt="" class="img-fluid">
           <a href="{{ .link | safeURL }}" class="hover-item">
-            <i class="ti-link"></i>
+            <i class="ti-book"></i>
           </a>
         </div>
       </div>
       {{ end }}
     </div>
     <div class="text-center mt-5">
-      <a href="/categories/books" class="btn btn-main-2">See All Books</a>
+      <a href="/categories/books" class="btn btn-main-2">See All Books <i class="ti-book"></i></a>
     </div>
   </div>
 </section>
@@ -404,7 +406,7 @@
   <div class="row justify-content-center">
     <div class="col-lg-4 col-md-12">
       <div class="section-heading text-center">
-        <h1 class="">{{ .title | markdownify }}</h1>
+        <h1 class="text-lg">{{ .title | markdownify }}</h1>
         <p>{{ .subtitle | markdownify }}</p>
 
       </div>
@@ -412,7 +414,7 @@
   </div>
   {{ end }}
 <br>
-<div class="" id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/e26473ebeef4f23755b01a64690b7a83?embedded=1"></div>
+<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/e26473ebeef4f23755b01a64690b7a83?embedded=1"></div>
 
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
@@ -429,7 +431,6 @@ formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
   console.log('Submitted form...')
 })
 </script>
-</div>
 
 
 

@@ -16,7 +16,7 @@ description: "Author Todd reads some new and old work to a great audience at Win
 categories: ["Events"]
 tags: ["Winslow"]
 # post type
-type: "post-front"
+type: "post"
 book:
 post:
 event: "x"

@@ -30,9 +30,10 @@ event: ""
 
 ---
 ## Read a sample:
-{{< gallery-slider dir="/images/blog/smile-and-soul/" auto-slide="20000" height="700px" width="auto" >}}
+{{< gallery-slider dir="/images/blog/the-book-that-stunk/" auto-slide="20000" height="500px" width="350px" >}}
 
 > Paperback ‏ : ‎ 35 pages
+
 > #28,732 in Children's Humor
 
-***If you're local, get a copy delivered. Or we'll ship anywhere in the US with no extra cost to you!***
+***If you're local, get your purchase delivered. Or we'll ship anywhere in the US!***

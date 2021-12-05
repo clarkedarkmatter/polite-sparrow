@@ -11,12 +11,12 @@ image: "/images/blog/cynthia/todd_selfie.jpg"
 
 # meta description
 description: "Todd read to Cynthia Heights students"
-
+url: "/blog/cynthia-heights"
 # taxonomies
 categories: ["Events"]
 tags: ["Cynthia Heights", "Smile and Soul"]
 # post type
-type: "post-front"
+type: "post"
 book:
 post:
 event: "x"

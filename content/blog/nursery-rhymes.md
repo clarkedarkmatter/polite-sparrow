@@ -32,7 +32,7 @@ event: ""
 
 ---
 #### Read a sample:
-{{< gallery-slider dir="/images/blog/smile-and-soul/" auto-slide="20000" height="700px" width="290px" >}}
+{{< gallery-slider dir="/images/blog/nursery-rhymes/" auto-slide="20000" height="700px" width="290px" >}}
 
 ***#4,252 in Inspirational & Religious Poetry (Books)***
 
