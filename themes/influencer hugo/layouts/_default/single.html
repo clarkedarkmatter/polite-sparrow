@@ -15,22 +15,26 @@
               </div>
               {{ .Content }}
               <br>
+              <div class="text-center">
               {{ if .Params.book }}
                 <h2>${{ .Params.price }}</h2>
                 <button class="snipcart-add-item btn btn-main-2"
-                data-item-id="starry-night"
+                data-item-id="{{ .Params.title }}"
                 data-item-price="{{ .Params.price }}"
-                data-item-url="/paintings/starry-night"
+                data-item-url="{{ .Params.url }}"
                 data-item-description="{{ .Params.description }}"
-                data-item-image="/assets/images/starry-night.jpg"
-                data-item-name="{{ .Params.author }}">
+                data-item-image="{{ .Params.image }}"
+                data-item-name="{{ .Params.title }}">
                 Add to cart
                 </button>
+                <hr>
+                <p>Prefer to buy through Amazon?<br><a href="{{ .Params.afflink }}">Click Here.</a></p><hr>
              {{ else if .Params.event }}
              <a href="/#booking"><button class="btn btn-main-2">Book a Workshop</button></a>
              {{ else }}
              <a href="/categories/books"><button class="btn btn-main-2">Shop Books</button></a>
              {{ end }}
+             </div>
             </div>
           </div>
           <div class="col-lg-12 mb-5">

@@ -20,7 +20,10 @@
           data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="/">
           See more<i class="ti-angle-right ml-3"></i>
         </button>-->
-        <a href="#booking" class="btn btn-main-2">Book a Reading Workshop<i class="ti-book ml-3"></i></a>
+        <div class="text-center mt-5">
+          <a href="#blog" class="btn btn-main-2">See Todd's Latest Events</a>
+        </div>
+
         </div>
       </div>
 
@@ -60,9 +63,9 @@
         </div>
       </div>
 
-      <div class="py-7 col-lg-7">
+      <div class="pt-5 col-lg-7">
         <div class="section-heading book-info pt-mt-5">
-          <h2 class="text-lg mb-4">{{ .title | markdownify }}</h2>
+          <h2 class="text-md mb-4">{{ .title | markdownify }}</h2>
           {{ .content | markdownify }}
 
           <ul class="list-unstyled mt-4 mb-5">
@@ -198,6 +201,34 @@
 {{ end }}
 {{ end }}
 
+<!-- Latest blog -->
+{{ if .Site.Data.homepage.blog.enable }}
+<section class="section blog-home border-top" id="blog">
+  <div class="container">
+    {{ with .Site.Data.homepage.blog }}
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="section-heading text-center">
+          <h2 class="text-lg mb-3">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="row">
+      {{ range first 3 (where .Site.RegularPages "Type" "post-front")}}
+      <div class="col-lg-3 col-md-6 col-sm-6">
+      {{ .Render "post"}}
+      </div>
+      {{ end }}
+    </div>
+    <div class="text-center mt-5">
+      <a href="/blog" class="btn btn-main-2">See Todd's Latest Posts</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <!-- Others books -->
 {{ if .Site.Data.homepage.otherBooks.enable }}
 {{ with .Site.Data.homepage.otherBooks }}
@@ -224,39 +255,16 @@
       </div>
       {{ end }}
     </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-
-<!-- Latest blog -->
-{{ if .Site.Data.homepage.blog.enable }}
-<section class="section blog-home border-top" id="blog">
-  <div class="container">
-    {{ with .Site.Data.homepage.blog }}
-    <div class="row justify-content-center">
-      <div class="col-lg-7">
-        <div class="section-heading text-center">
-          <h2 class="text-lg mb-3">{{ .title | markdownify }}</h2>
-          <p>{{ .subtitle | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-    <div class="row">
-      {{ range first 4 (where .Site.RegularPages "Type" "post")}}
-      <div class="col-lg-3 col-md-6 col-sm-6">
-      {{ .Render "post"}}
-      </div>
-      {{ end }}
-    </div>
     <div class="text-center mt-5">
-      <a href="/blog" class="btn btn-main-2">See Todd's Latest Posts</a>
+      <a href="/categories/books" class="btn btn-main-2">See All Books</a>
     </div>
   </div>
 </section>
 {{ end }}
+{{ end }}
 
+
+<hr>
 
 <!-- Device feature -->
 {{ if .Site.Data.homepage.devices.enable }}
@@ -328,7 +336,7 @@
 </section>
 {{ end }}
 {{ end }}
-
+<hr>
 <!-- Awards -->
 {{ if .Site.Data.homepage.awards.enable }}
 {{ with .Site.Data.homepage.awards }}

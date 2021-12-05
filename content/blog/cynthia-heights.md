@@ -16,7 +16,7 @@ description: "Todd read to Cynthia Heights students"
 categories: ["Events"]
 tags: ["Cynthia Heights", "Smile and Soul"]
 # post type
-type: "post"
+type: "post-front"
 book:
 post:
 event: "x"
@@ -30,8 +30,5 @@ Remember - I can customize my presentation to discuss any topics using my poems 
 {{< gallery-slider dir="/images/blog/cynthia/" auto-slide="4000" height="500px" width="100%" >}}
 ***
 ***
-### Scroll down - [or click here](/#footer) - to request info regarding your next event!
-
-
 
 #### #LoveHardToday #SmileandSoul #dreambig

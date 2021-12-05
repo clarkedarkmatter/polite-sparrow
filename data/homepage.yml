@@ -12,21 +12,17 @@ preview:
   enable : true
   pagePreview:
     # page preview loop HIGHLIGHT Author's Latest WORK
-    - image : "images/about/smile-and-soul/2.png"
-    - image : "images/about/smile-and-soul/3.png"
-    - image : "images/about/smile-and-soul/4.png"
-    - image : "images/about/smile-and-soul/5.png"
-    - image : "images/about/smile-and-soul/6.png"
-    - image : "images/about/smile-and-soul/7.png"
-    - image : "images/about/smile-and-soul/8.png"
-    - image : "images/about/smile-and-soul/9.png"
-    - image : "images/about/smile-and-soul/10.png"
-    - image : "images/about/smileandsoul.png"
 
+    - image : "images/blog/smile-and-soul/2.png"
+    - image : "images/blog/smile-and-soul/3.png"
+    - image : "images/blog/smile-and-soul/4.png"
+    - image : "images/blog/smile-and-soul/5.png"
+    - image : "images/blog/smile-and-soul/6.png"
+    - image : "images/blog/smile-and-soul/1.png"
 
-  title : "Read a sample of his latest book, Smile and Soul"
+  title : "Read a sample of Smile and Soul, available now!"
   content : "
-  Available now through this website or on Amazon. You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
+  You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
   inside:
     # book inside item loop
     - insideItem : "Over 100 stories in all."
@@ -36,8 +32,8 @@ preview:
   # button
   button:
     enable : true
-    label : "Add to Cart"
-    link : "/blog/blog-post-2"
+    label : "More About Smile and Soul"
+    link : "/blog/smile-and-soul"
 
   button2:
       enable : true
@@ -209,10 +205,9 @@ awards:
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "All books by Author Todd"
-  subtitle : "Author Todd has published 6 books in total. Stay tuned for his first 2022 release!"
+  title : "Books by Author Todd"
+  subtitle : "Author Todd has published 6 books in total. Browse them here."
   book:
-
 
     # books loop
     - image : "images/about/thefunreader.jpg"
@@ -222,27 +217,14 @@ otherBooks:
     - image : "images/about/the-book-that-stunk-2.png"
       link : "/blog/the-book-that-stunk"
 
-
-    # books loop
-    - image : "images/about/nursery-rhymes-vol-1.jpg"
-      link : "/blog/nursery-rhymes-vol-1"
-
-    # books loop
-    - image : "images/about/nursery-rhymes-vol-2.jpg"
-      link : "/blog/nursery-rhymes-vol-2.jpg"
-
     # books loop
     - image : "images/about/pass-the-time.jpg"
       link : "/blog/pass-the-time"
 
-    # books loop
-    - image : "images/about/smile-and-soul.jpg"
-      link : "/blog/smile-and-soul"
-
 bookings:
   enable : true
   title : "Book A Workshop"
-  subtitle : "Author Todd brings his presentation to you. From classrooms to bookstores, Todd brings lessons for us all.
+  subtitle : "Author Todd brings the reading and books to your organization.
   "
 
 ################################ Blog ###################################

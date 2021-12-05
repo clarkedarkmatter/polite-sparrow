@@ -16,7 +16,7 @@ description: "Author Todd reads some new and old work to a great audience at Win
 categories: ["Events"]
 tags: ["Winslow"]
 # post type
-type: "post"
+type: "post-front"
 book:
 post:
 event: "x"
@@ -30,8 +30,5 @@ I can customize my presentation to discuss any topics using my poems and books, 
 {{< gallery-slider dir="/images/blog/winslow/" auto-slide="4000" height="500px" width="100%" >}}
 ***
 ***
-### Scroll down - [or click here](#book-footer) - to request info regarding your next event!
-
-
 
 #### #LoveHardToday #SmileandSoul #dreambig

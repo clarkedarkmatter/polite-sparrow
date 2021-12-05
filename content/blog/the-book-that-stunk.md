@@ -1,23 +1,23 @@
 ---
-title: "The Book That Stunk"
-date: 2019-11-23T15:28:43+06:00
+title: "The Book That Stunk (Adults Beware)"
+date: 2020-11-23T15:28:43+06:00
 draft: false
-description: "This is The Book That Stunk"
+description: "Smile and Soul is a collection of poems and illustrations released in 2021 by Author Todd Schimmell."
 
 # post author
-author : "Author Todd"
-
+author : "Todd Schimmell"
 # post thumb
+
+#Snipcart/Amazon Button Generate
+
+afflink: "https://amzn.to/3o3phdQ"
 image: "images/about/the-book-that-stunk-2.png"
-
-# meta description
-description: "this is meta description"
-
-price: "$29.99"
+price: "10.00"
+url: "/blog/the-book-that-stunk"
 
 # taxonomies
 categories: ["Books"]
-tags: ["Expression", "Healing"]
+tags: ["The Book That Stunk", "2020", "Fun"]
 # post type
 type: "post"
 book: "x"
@@ -26,32 +26,13 @@ event: ""
 ---
 ---
 
-![blog_image](/images/about/thefunreader.jpg)
+"The Book That Stunk takes the reader on a smelly adventure. Be thankful this book is not scratch and sniff. However; your imagination may think otherwise. Hold your nose and let this book take you wherever it goes."
 
-Smile and Soul is Author Todd's latest book, and quite frankly, one of his best! The characters really come to life and the stories are perfect for the adventurous reader.
+---
+## Read a sample:
+{{< gallery-slider dir="/images/blog/smile-and-soul/" auto-slide="20000" height="700px" width="auto" >}}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officiis perspiciatis, eaque porro ad
-facilis vel amet. Pariatur eligendi odio voluptatem provident modi eos, perferendis quas delectus.
-Dolore, quo. Ad.
+> Paperback ‏ : ‎ 35 pages
+> #28,732 in Children's Humor
 
-
-> A brand for a company is like a reputation for a person. You earn reputation by
-trying to do hard things well.
-
-
-
-## We are leading industry to build your career
-
-The same is true as we experience the emotional sensation of
-stress from our first instances of social rejection ridicule. We quickly learn to fear and thus
-automatically.
-
-![Tux, the Linux mascot](images/blog/smileandsoul.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi
-laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in,
-doloribus hic aperiam maiores fugit.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum beatae repellat
-tenetur incidunt quisquam libero dolores laudantium. Nesciunt quis itaque quidem, voluptatem autem eos
-animi laborum iusto expedita sapiente.
+***If you're local, get a copy delivered. Or we'll ship anywhere in the US with no extra cost to you!***
