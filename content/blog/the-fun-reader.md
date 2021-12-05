@@ -13,7 +13,7 @@ author : "Todd Schimmell"
 afflink: "https://amzn.to/2Ylnec3"
 image: "images/about/thefunreader.jpg"
 price: "15.00"
-url: "polite-sparrow-6cfec.netlify.app/blog/the-fun-reader"
+url: "/blog/the-fun-reader"
 
 # taxonomies
 categories: ["Books"]
