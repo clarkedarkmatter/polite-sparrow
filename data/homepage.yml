@@ -13,12 +13,12 @@ preview:
   pagePreview:
     # page preview loop HIGHLIGHT Author's Latest WORK
 
-    - image : "images/blog/smile-and-soul/2.png"
-    - image : "images/blog/smile-and-soul/3.png"
-    - image : "images/blog/smile-and-soul/4.png"
-    - image : "images/blog/smile-and-soul/5.png"
-    - image : "images/blog/smile-and-soul/6.png"
-    - image : "images/blog/smile-and-soul/1.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/2.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/3.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/4.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/5.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/6.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/1.png"
 
   title : "Read a sample of Smile and Soul, available now!"
   content : "
