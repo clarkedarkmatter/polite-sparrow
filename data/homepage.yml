@@ -3,7 +3,7 @@ banner:
   enable : true
   writter : "Books & Reading Workshops"
   title : "Author Todd Schimmell"
-  image : "images/about/todd_read.jpg"
+  image : "https://authortodd.b-cdn.net/images/about/todd_read.jpg"
   content : "Todd is a Midwestern author, illustrator, entertainer and youth leader. Writing for the younger version of all of us, Todd uses his voice as a Student Resource Officer and father of 5 to transport us back in time."
   price : "14.99"
 
