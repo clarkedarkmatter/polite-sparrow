@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "images/blog/llama-be.png"
+image: "https://authortodd.b-cdn.net/images/blog/llama-be.png"
 
 # meta description
 description: "Llama Be is a fan favorite from Smile and Soul"
@@ -22,30 +22,31 @@ post: "x"
 event: ""
 ---
 
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
-nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,
-nam voluptate in beatae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officiis perspiciatis, eaque porro ad
-facilis vel amet. Pariatur eligendi odio voluptatem provident modi eos, perferendis quas delectus.
-Dolore, quo. Ad.
+![llama be](https://authortodd.b-cdn.net/images/blog/llama-be.png)
 
 
-> A brand for a company is like a reputation for a person. You earn reputation by
-trying to do hard things well.
+# Llama believe
+## in what I can be.
 
-## We are leading industry to build your career
+---
 
-The same is true as we experience the emotional sensation of
-stress from our first instances of social rejection ridicule. We quickly learn to fear and thus
-automatically.
+# Llama be great,
+## Just wait and see!
 
+---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi
-laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in,
-doloribus hic aperiam maiores fugit.
+# But first Llama sit,
+## And have a stay.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum beatae repellat
-tenetur incidunt quisquam libero dolores laudantium. Nesciunt quis itaque quidem, voluptatem autem eos
-animi laborum iusto expedita sapiente.
+---
+
+# Llama breathe in,
+## And enjoy the day.
+
+---
+
+> This Poem is from the Smile and Soul collection.
+
+Read a sample of the book [by clicking here.](/blog/smile-and-soul)
+
+# [Read another poem ->](/blog/hair-stare)

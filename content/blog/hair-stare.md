@@ -7,15 +7,15 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "images/blog/hairstare0.png"
+image: "https://authortodd.b-cdn.net/images/blog/hairstare0.png"
 
 # meta description
-description: "this is meta description"
+description: "Hair Stare is a poem about different kinds of people."
 
 
 # taxonomies
 categories: ["Poems"]
-tags: ["Photos", "HTML", "Book", "New"]
+tags: ["Smile and Soul", "Book", "Strengths"]
 # post type
 type: "post"
 book: ""
@@ -25,20 +25,22 @@ event: ""
 ---
 # Both are amazing in what they can grow.
 
-# The best mustache and hair, that they know.
-
-<br><br>
+### The best mustache and hair, that they know.
 
 ## As they stare at each other they want more.
 
+![Hair Stare](https://authortodd.b-cdn.net/images/blog/hairstare0.png)
+
 ## Where they are rich, they only see poor.
 
-![Hair Stare](/images/blog/hairstare0.png)
+---
 
 ## Respect what is great in others that’s true.
 
 # But don’t forget what is great about you.
 ---
-This poem comes from the book [Smile and Soul](/blog/smile-and-soul) - [Click Here to View Book](/blog/smile-and-soul).
+This poem comes from the book [Smile and Soul](https://authortodd.b-cdn.net/blog/smile-and-soul).
 
-## [--> Read Next Poem](/blog/llama-be)
+## [--> Read Next Poem](https://authortodd.b-cdn.net//blog/llama-be)
+
+ [Click Here Read a Sample of Smile and Soul](https://authortodd.b-cdn.net/blog/smile-and-soul).

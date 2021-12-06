@@ -8,12 +8,12 @@ themesDir = "themes"
 publishDir = "public"
 
 [params]
-logo = "logo.png"
-home = "Home"
-description = "This is meta description"
-author = "Themefisher"
-googleAnalitycsID = ""
-copyright = "Copyright &copy; 2021 [Compassio Veraque](www.darkmatter.works) All Rights Reserved"
+  logo = "https://authortodd.b-cdn.net/logo.png"
+  home = "Home"
+  description = ""
+  author = "Themefisher"
+  googleAnalitycsID = ""
+  copyright = "Powered by [Dark Matter](www.darkmatter.works) and Compassio Veraque."
 
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
