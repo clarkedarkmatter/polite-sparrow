@@ -210,27 +210,27 @@ otherBooks:
   book:
 
     # books loop
-    - image : "images/blog/the-fun-reader/1.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/the-fun-reader/1.png"
       link : "/blog/the-fun-reader"
 
     # books loop
-    - image : "images/blog/the-book-that-stunk/1.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/the-book-that-stunk/1.png"
       link : "/blog/the-book-that-stunk"
 
     # books loop
-    - image : "images/blog/pass-the-time/1.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/pass-the-time/1.png"
       link : "/blog/pass-the-time"
 
     # books loop
-    - image : "images/blog/smile-and-soul/1.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/1.png"
       link : "/blog/smile-and-soul"
 
     # books loop
-    - image : "images/blog/nursery-rhymes/1.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/nursery-rhymes/1.png"
       link : "/blog/nursery-rhymes/"
 
     # books loop
-    - image : "images/blog/nursery-rhymes-vol-2/1.png"
+    - image : "https://authortodd.b-cdn.net/images/blog/nursery-rhymes-vol-2/1.png"
       link : "/blog/nursery-rhymes-vol-2/"
 
 
