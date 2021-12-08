@@ -1,9 +1,10 @@
 
 {{ define "main" }}
-<meta property="og:type" content="article" />
+<meta property="og:type" content="page" />
 <meta property="og:title" content="{{ .Params.title }}" />
 <meta property="og:image" content="{{ .Params.image }}" />
 <meta property="og:description" content="{{ .Params.description }}" />
+<meta property="og:url" content="{{ .Site.url }}" />
 
 {{ partial "page-title.html" . }}
 
