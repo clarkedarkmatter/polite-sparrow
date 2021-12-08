@@ -13,9 +13,8 @@ author : "Todd Schimmell"
 afflink: "https://amzn.to/307mvMD"
 image: "images/about/nursery-rhymes-vol-1.jpg"
 price: "10.37"
-url: "/blog/nursery-rhymes-vol-1"
-full_url: "https://authortodd.com/blog/nursery-rhymes-vol-1"
-
+url: "/blog/nursery-rhymes"
+full_url: "https://authortodd.com/blog/nursery-rhymes"
 # taxonomies
 categories: ["Books"]
 tags: ["Nursery Rhymes", "2020"]
@@ -33,7 +32,7 @@ event: ""
 
 ---
 #### Read a sample:
-{{< gallery-slider dir="/images/blog/nursery-rhymes/" auto-slide="20000" height="700px" width="290px" >}}
+{{< gallery-slider dir="/images/blog/nursery-rhymes/" auto-slide="20000" height="500px" width="350px" >}}
 
 ***#4,252 in Inspirational & Religious Poetry (Books)***
 

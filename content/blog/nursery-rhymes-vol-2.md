@@ -30,7 +30,7 @@ event: ""
 
 ---
 #### Read a sample:
-{{< gallery-slider dir="/images/blog/nursery-rhymes-vol-2/" auto-slide="20000" height="700px" width="340px" >}}
+{{< gallery-slider dir="/images/blog/nursery-rhymes-vol-2/" auto-slide="20000" height="500px" width="350px" >}}
 
 
 >#6,216 in Inspirational & Religious Poetry (Books)
