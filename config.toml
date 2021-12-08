@@ -10,8 +10,8 @@ publishDir = "public"
 [params]
   logo = "https://authortodd.b-cdn.net/logo.png"
   home = "Home"
-  description = ""
-  author = "Themefisher"
+  description = "Test"
+  author = ""
   googleAnalitycsID = ""
   copyright = "Powered by [Dark Matter](www.darkmatter.works) and Compassio Veraque."
 
