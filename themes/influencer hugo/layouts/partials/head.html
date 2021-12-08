@@ -15,7 +15,10 @@
   {{ end }}
 
   <!-- snipcart -->
-  <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
+    <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
+    <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+    <div id="snipcart" data-config-modal-style="side" data-api-key="MjBiYWJhY2QtY2E5Yi00Y2ZjLWIzMDktMmY0YjZiOWQwNmExNjM3NzIzNDE3NTk2MDY5NDE0" hidden></div>
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}

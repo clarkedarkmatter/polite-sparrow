@@ -1,6 +1,6 @@
-baseURL = "localhost:1313"
+baseURL = "authortodd.com"
 languageCode = "en-us"
-title = "Author Todd"
+title = "Author Todd Schimmell"
 theme = "influencer hugo"
 summaryLength = "10"
 paginate = 6
