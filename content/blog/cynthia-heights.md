@@ -5,7 +5,7 @@ date: 2021-09-04T15:28:43+06:00
 draft: false
 author : "Todd Schimmell"
 description: "Todd read to Cynthia Heights students"
-image: "/images/blog/cynthia/todd_selfie.jpg"
+image: "https://authortodd.b-cdn.net/images/blog/cynthia/todd_selfie.jpg"
 url: "/blog/cynthia-heights"
 # taxonomies
 categories: ["Events"]
