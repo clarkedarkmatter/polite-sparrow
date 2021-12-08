@@ -14,6 +14,7 @@ afflink: "https://amzn.to/307mvMD"
 image: "images/about/nursery-rhymes-vol-1.jpg"
 price: "10.37"
 url: "/blog/nursery-rhymes-vol-1"
+full_url: "https://authortodd.com/blog/nursery-rhymes-vol-1"
 
 # taxonomies
 categories: ["Books"]
