@@ -1,21 +1,17 @@
 ---
 title: "Todd reads to Cynthia Heights"
+type: "post"
 date: 2021-09-04T15:28:43+06:00
 draft: false
-# post author
 author : "Todd Schimmell"
-
-# post thumb
-image: "/images/blog/cynthia/todd_selfie.jpg"
-
-# meta description
 description: "Todd read to Cynthia Heights students"
+image: "/images/blog/cynthia/todd_selfie.jpg"
 url: "/blog/cynthia-heights"
 # taxonomies
 categories: ["Events"]
 tags: ["Cynthia Heights", "Smile and Soul"]
 # post type
-type: "post"
+
 book:
 post:
 event: "x"
