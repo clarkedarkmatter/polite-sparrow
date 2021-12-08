@@ -1,6 +1,6 @@
 baseURL = "localhost:1313"
 languageCode = "en-us"
-title = "Author Todd"
+title = "Home"
 theme = "influencer hugo"
 summaryLength = "10"
 paginate = 6
@@ -51,7 +51,7 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
   expire_days = 2
 
   [params.footer]
-  content = "There's nothing Todd enjoys more than staying connected to readers."
+  content = "There's nothing Todd enjoys more than hearing from readers."
 
   [[params.share]]
   title = "facebook"
