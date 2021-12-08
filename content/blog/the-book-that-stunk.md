@@ -14,6 +14,7 @@ afflink: "https://amzn.to/3o3phdQ"
 image: "images/about/the-book-that-stunk-2.png"
 price: "10.00"
 url: "/blog/the-book-that-stunk"
+full_url: "https://authortodd.com/blog/the-book-that-stunk"
 
 # taxonomies
 categories: ["Books"]

@@ -14,6 +14,8 @@ afflink: "https://amzn.to/2Ylnec3"
 image: "images/about/smile-and-soul.jpg"
 price: "15.00"
 url: "/blog/smile-and-soul"
+full_url: "https://authortodd.com/blog/smile-and-soul"
+
 
 # taxonomies
 categories: ["Books"]

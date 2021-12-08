@@ -14,6 +14,8 @@ afflink: "https://amzn.to/3H06jNG"
 image: "images/about/pass-the-time.jpg"
 price: "15.00"
 url: "/blog/pass-the-time"
+full_url: "https://authortodd.com/blog/pass-the-time"
+
 
 # taxonomies
 categories: ["Books"]

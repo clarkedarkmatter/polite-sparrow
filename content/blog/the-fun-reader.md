@@ -14,6 +14,7 @@ afflink: "https://amzn.to/2Ylnec3"
 image: "images/about/thefunreader.jpg"
 price: "15.00"
 url: "/blog/the-fun-reader"
+full_url: "https://authortodd.com/blog/the-fun-reader"
 
 # taxonomies
 categories: ["Books"]
