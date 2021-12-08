@@ -1,6 +1,6 @@
 ---
 title: "Smile and Soul"
-date: 2021-10-01T15:28:43+06:00
+date: 2021-08-25T15:28:43+06:00
 draft: false
 description: "Smile and Soul is a collection of poems and illustrations released in 2021 by Author Todd Schimmell."
 

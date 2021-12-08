@@ -39,8 +39,8 @@ event: ""
 
 # But don’t forget what is great about you.
 ---
-This poem comes from the book [Smile and Soul](https://authortodd.b-cdn.net/blog/smile-and-soul).
+This poem comes from the book [Smile and Soul](/blog/smile-and-soul).
 
-## [--> Read Next Poem](https://authortodd.b-cdn.net//blog/llama-be)
+## [--> Read Next Poem](/blog/llama-be)
 
- [Click Here Read a Sample of Smile and Soul](https://authortodd.b-cdn.net/blog/smile-and-soul).
+ [Click Here Read a Sample of Smile and Soul](/blog/smile-and-soul).

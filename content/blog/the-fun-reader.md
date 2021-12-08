@@ -1,6 +1,6 @@
 ---
 title: "The Fun Reader"
-date: 2021-10-01T15:28:43+06:00
+date: 2020-10-01T15:28:43+06:00
 draft: false
 description: "The Fun Reader contains magical powers. Once the first line is read there is no going back. You will be under the books control. (Much to the delight of the child you are reading to.) Get ready for a hilarious time. Remember this book is only as fun as the Reader."
 

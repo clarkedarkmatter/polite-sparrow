@@ -402,10 +402,10 @@
 
 <!-- Book a workshop Section -->
 {{ with .Site.Data.homepage.bookings }}
-<div id="booking" class="bg-grey pt-5">
+<div id="booking" class="bg-grey py-5">
   <div class="row justify-content-center">
     <div class="col-lg-4 col-md-12">
-      <div class="section-heading text-center">
+      <div class="text-center">
         <h1 class="text-lg">{{ .title | markdownify }}</h1>
         <p>{{ .subtitle | markdownify }}</p>
 
@@ -432,6 +432,6 @@ formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
 })
 </script>
 
-
+</div>
 
 {{ end }}

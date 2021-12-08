@@ -4,7 +4,7 @@ banner:
   writter : "Books & Reading Workshops"
   title : "Author Todd Schimmell"
   image : "https://authortodd.b-cdn.net/images/about/todd_read.jpg"
-  content : "Todd is a Midwestern author, illustrator, entertainer and youth leader. Writing for the younger version of all of us, Todd uses his voice as a Student Resource Officer and father of 5 to transport us back in time."
+  content : "Todd is a Midwestern author, illustrator, entertainer and youth leader. Writing for the younger version of all of us, Todd uses his experience as a School Resource Officer and father of 5 to tell great stories."
   price : "14.99"
 
 ######################## Book Preview ##########################
@@ -25,9 +25,9 @@ preview:
   You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
   inside:
     # book inside item loop
-    - insideItem : "Over 100 stories in all."
-    - insideItem : "Perfect as a for bedtime stories!"
-    - insideItem : "Available now by clicking below."
+    - insideItem : "100+ stories in all."
+    - insideItem : "Perfect for family bedtime!"
+    - insideItem : "Life lessons, inspiration, and fun illustrations!"
 
   # button
   button:
