@@ -41,6 +41,6 @@ event: ""
 ---
 This poem comes from the book [Smile and Soul](/blog/smile-and-soul).
 
-## [--> Read Next Poem](/blog/llama-be)
+## [--> Read Next Poem](/blog/mayor)
 
  [Click Here Read a Sample of Smile and Soul](/blog/smile-and-soul).
