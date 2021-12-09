@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "/images/blog/mayor2.png"
+image: "https://authortodd.b-cdn.net/images/blog/mayor2.png"
 
 # meta description
 description: "A poem, illustration and commentary on a well known type of person."
@@ -35,7 +35,7 @@ event: ""
 
 ## She will clean up the city, I'm her fan!"
 
-![Mayor](/images/blog/mayor2.png)
+![Mayor](https://authortodd.b-cdn.net/images/blog/mayor2.png)
 
 # Jean was baffled, but she loved to entertain.
 
