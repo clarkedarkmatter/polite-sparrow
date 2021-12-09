@@ -25,3 +25,8 @@
 @import 'templates/blog.scss';
 
 @import 'templates/footer.scss';
+
+#flex_test {
+  display: flex;
+  flex-flow: column-reverse;
+}
