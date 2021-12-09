@@ -257,7 +257,7 @@ contact:
     - title : "Call or Text"
       icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "(812) 455-5793"
+        - listItem : "812-760-0315"
 
     # contact Item loop
     - title : "Email Todd"
