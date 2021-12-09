@@ -1,10 +1,10 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Books & Reading Workshops"
-  title : "Author Todd Schimmell"
+  writter : "Perfect Stocking Stuffers for Your Favorite Readers"
+  title : "Available Now: Holiday Book Bundle"
   image : "https://authortodd.b-cdn.net/images/about/todd_read.jpg"
-  content : "Todd is a Midwestern author, illustrator, entertainer and youth leader. Writing for the younger version of all of us, Todd uses his experience as a School Resource Officer and father of 5 to tell great stories."
+  content : "Get all 6 of Todd's books, hundreds of stories and memories to share with the family."
   price : "14.99"
 
 ######################## Book Preview ##########################
