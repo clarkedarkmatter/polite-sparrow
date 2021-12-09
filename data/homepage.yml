@@ -102,7 +102,7 @@ chapters:
 reviews:
   enable : true
   title : "What Readers Are Saying"
-  subtitle : "It's no secret Todd's work and larger than life. Check out some real reviews from readers of Smile and Soul!"
+  subtitle : "It's no secret Todd's work is larger than life. Check out some real reviews from readers of Smile and Soul!"
   review:
     # review item loop
     - name : "Taylor Burns"
