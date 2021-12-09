@@ -12,7 +12,7 @@ publishDir = "public"
   home = "Home"
   description = "Test"
   author = ""
-  googleAnalitycsID = ""
+  googleAnalitycsID = "G-DST9XBY9W9"
   copyright = "Powered by [Dark Matter](www.darkmatter.works) and Compassio Veraque."
 
 [[params.plugins.css]]
