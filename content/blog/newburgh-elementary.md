@@ -6,7 +6,7 @@ draft: false
 author : "Todd Schimmell"
 description: "Todd does at workshop for 5th graders at Newburgh Elementary School PAT"
 image: "https://authortodd.b-cdn.net/images/blog/newburgh/newburgh.png"
-url: "/blog/newburgh-elemntary"
+url: "/blog/newburgh-elementary"
 # taxonomies
 categories: ["Events"]
 tags: ["Cynthia Heights", "Smile and Soul"]
