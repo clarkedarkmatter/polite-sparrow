@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-metaimage: "https://authortodd.b-cdn.net/images/blog/keys-meta.png"
+meta-image: "https://authortodd.b-cdn.net/images/blog/keys-meta.png"
 image: "https://authortodd.b-cdn.net/images/blog/keys.jpg"
 
 
