@@ -14,13 +14,20 @@ description: "Llama Be is a fan favorite from Smile and Soul"
 
 # taxonomies
 categories: ["Poems"]
-tags: ["Llama Be", "Smile and Soul", "New"]
+tags: ["Affirmations", "Smile and Soul", "New"]
 # post type
 type: "post"
 book: ""
 post: "x"
 event: ""
 ---
+
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
 
 ![llama be](https://authortodd.b-cdn.net/images/blog/llama-be.png)
 
