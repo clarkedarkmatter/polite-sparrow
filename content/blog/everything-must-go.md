@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "https://authortodd.b-cdn.net/images/blog/keys.jpg"
+image: "https://authortodd.b-cdn.net/images/blog/keys-post.png"
 
 # meta description
 description: "A fun rhyme about an interesting person."
