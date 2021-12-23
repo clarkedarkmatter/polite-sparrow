@@ -9,6 +9,8 @@ author : "Todd Schimmell"
 # post thumb
 metaimage: "https://authortodd.b-cdn.net/images/blog/keys-meta.png"
 image: "https://authortodd.b-cdn.net/images/blog/keys.jpg"
+url: "/blog/everything-must-go"
+
 
 
 # meta description

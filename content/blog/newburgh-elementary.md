@@ -5,6 +5,7 @@ date: 2021-12-16T15:28:43+06:00
 draft: false
 author : "Todd Schimmell"
 description: "Todd does at workshop for 5th graders at Newburgh Elementary School PAT"
+metaimage: "https://authortodd.b-cdn.net/images/blog/newburgh-full.jpg"
 image: "https://authortodd.b-cdn.net/images/blog/newburgh/newburgh.png"
 url: "/blog/newburgh-elementary"
 # taxonomies
