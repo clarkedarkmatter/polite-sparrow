@@ -4,7 +4,7 @@ banner:
   writter : "Available On Amazon on 2/2/22"
   title : "The Elephant Tooted"
   image : "/images/blog/elephant.jpg"
-  content : "A Story about the Misunderstandings and Friendships of a group of animals."
+  content : "Elephant waits by her favorite tree for her friends to walk by at the end of everyday. One day Giraffe heard a loud TOOT coming from Elephant's direction."
   price : "14.99"
 
 ######################## Book Preview ##########################
@@ -20,14 +20,14 @@ preview:
     - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/6.png"
     - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/1.png"
 
-  title : "Click to read a sample of Smile and Soul, available now!"
-  content : "
-  You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
+  title : "Click to Read a Sample of Smile and Soul - Available Now!"
+  content :
+   "Smile and Soul is the perfect blend of humorous poems mixed with life lessons, inspiration, and fun illustrations. Schimmell's entertaining style lends itself to all ages. This is a book for the entire family! "
   inside:
     # book inside item loop
-    - insideItem : "100+ stories in all."
-    - insideItem : "Perfect for family bedtime!"
-    - insideItem : "Life lessons, inspiration, and fun illustrations!"
+    - insideItem : "Over 100 stories in all."
+    - insideItem : "Perfect for bedtime or learning to read."
+    - insideItem : "Life lessons, inspiration, and funny illustrations!"
 
   # button
   button:
@@ -102,7 +102,7 @@ chapters:
 reviews:
   enable : true
   title : "What Readers Are Saying"
-  subtitle : "It's no secret Todd's work is larger than life. Check out some real reviews from readers of Smile and Soul!"
+  subtitle : "It's no secret Todd's work is larger than life. Check out real reviews from our readers!"
   review:
     # review item loop
     - name : "Taylor Burns"
@@ -236,8 +236,8 @@ otherBooks:
 
 bookings:
   enable : true
-  title : "Request Booking Info"
-  subtitle : "Start the conversation. We can't wait to hear from you!"
+  title : "Request Workshop Information"
+  subtitle : "Author Todd comes to your organization and brings his books to life!"
 
 
 ################################ Blog ###################################
