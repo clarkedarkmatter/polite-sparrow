@@ -3,18 +3,23 @@
 <!-- Banner -->
 {{ if .Site.Data.homepage.banner.enable }}
 {{ with .Site.Data.homepage.banner }}
-<section class="py-7" id="banner">
+<section class="py-7 mt-1" id="">
   <div class="container">
-    <div id="" class="row justify-content-between text-center">
-      <div class="col-lg-5 col-md-8">
-        <div class="main-banner">
+    <div id="" class="row text-center">
+
+    {{ if .image }}
+    <div class="col-lg-6">
+      <div id="banner-img" class="justify-content-end">
+        <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
+      </div>
+    </div>
+    {{ end }}
+      <div class="col-lg-6 col-md-8">
+        <div class="pt-5">
           <span class="text-color font-weight-bold">{{ .writter | markdownify }}</span>
           <h1 class="mb-4 mt-2">{{ .title | markdownify }}</h1>
 
-          <div class="mb-4">
-            <!--<h4>Price :- <span class="text-color">${{ .price }}</span></h4>-->
-          </div>
-          <h4 class="pb-3">{{ .content | markdownify }}</h4>
+          <h5 class="pb-3">{{ .content | markdownify }}</h5>
 
         <div class="text-center mt-2">
           <!--
@@ -27,65 +32,10 @@
           data-item-name="Holiday Reading Book Bundle">
           Add to cart
           </button> -->
-          <a href="/blog"><button class="btn btn-main-2">Read A Preview</button></a>
+          <a href="/blog/the-elephant-tooted"><button class="btn btn-main-2">Read A Preview</button></a>
 
         </div>
 
-        </div>
-      </div>
-
-      {{ if .image }}
-      <div class="col-lg-5">
-        <div id="banner-img" class="pt-4 banner-img">
-          <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-
-<!-- Book preview -->
-{{ if .Site.Data.homepage.preview.enable }}
-{{ with .Site.Data.homepage.preview }}
-<section class="section bg-grey" id="book">
-  <div class="container">
-    <div id="row" class="row justify-content-between">
-      <div class="col-lg-5">
-        <div class="pt-5 book-preview">
-          <img src="{{`images/about/kindle.png` | relURL}}" class="background-device img-fluid" alt="device">
-          <div class="book-pages">
-            {{ range .pagePreview }}
-            <div class="item">
-              <img src="{{ .image | relURL }}" alt="page-preview" class="img-fluid">
-              <div class="overlay">
-                <a href="{{ .image | relURL }}" class="popup-gallery img-fluid" data-title="Preview"><i
-                    class="ti-fullscreen"></i></a>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-
-      <div class="pt-5 col-lg-7">
-        <div class="section-heading book-info pt-mt-5">
-          <h2 class="text-md mb-4">{{ .title | markdownify }}</h2>
-          {{ .content | markdownify }}
-
-          <ul class="list-unstyled mt-4 mb-5">
-            {{ range .inside }}
-            <li><i class="ti-check mr-3"></i> {{ .insideItem | markdownify }}</li>
-            {{ end }}
-          </ul>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }}<i class="ti-arrow-right"></i></a>
-          {{ end }}
-
-          {{ end }}
         </div>
       </div>
     </div>
@@ -93,6 +43,7 @@
 </section>
 {{ end }}
 {{ end }}
+
 
 <!--Services -->
 {{ if .Site.Data.homepage.service.enable }}
@@ -168,7 +119,7 @@
 <!-- Review-->
 {{ if .Site.Data.homepage.reviews.enable }}
 {{ with .Site.Data.homepage.reviews }}
-<section class="py-5 testimonial" id="review">
+<section class="pt-5 pb-5 bg-grey" id="review">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-12">
@@ -236,10 +187,89 @@
 </section>
 {{ end }}
 
+<!-- Book a workshop Section -->
+{{ with .Site.Data.homepage.bookings }}
+<div id="booking" class="bg-grey py-7 px-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-md-5">
+      <div class="text-center">
+        <h1 class="text-lg">{{ .title | markdownify }}</h1>
+        <p>{{ .subtitle | markdownify }}</p>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <div class="container">
+          <div class="row">
+            <section class="container">
+                <div class="container" style="text-align:center;width:100%">
+                <form class="" target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/3e5823e14818" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                  <fieldset>
+                      <div class="">
+                      <div class="form-group" id="Name___div">
+                      <label title="required" for="Name:">Name: *</label>
+                      <input type="text" name="Name:" id="Name:" required="required" class="form-control" />
+                  </div>
+                  </div>
+                      <div class="">
+                      <div class="form-group col-xs-12" id="Email___div">
+                      <label title="required" for="Email:">Email: *</label>
+                      <input type="email" name="Email:" id="Email:" required="required" class="form-control" />
+                  </div>
+                  </div>
+                      <div class="">
+                      <div class="form-group col-xs-12" id="Phone___div">
+                      <label title="required" for="Phone:">Phone: *</label>
+                      <input type="tel" name="Phone:" id="Phone:" required="required" class="form-control" />
+                  </div>
+                  </div>
+                      <div class="">
+                      <div class="form-group col-xs-12" id="Organization___div">
+                      <label for="Organization:">Organization:</label>
+                      <input type="text" name="Organization:" id="Organization:" class="form-control" />
+                  </div>
+                  </div>
+                      <div class="">
+                      <div class="form-group col-xs-12" id="What_s_the_best_time_day_to_reach_you___div">
+                      <label title="required" for="What_s_the_best_time_day_to_reach_you_">What&#39;s the best time/day to reach you? *</label>
+                      <input type="text" name="What&#39;s the best time/day to reach you?" id="What_s_the_best_time_day_to_reach_you_" required="required" class="form-control" />
+                  </div>
+                  </div>
+                      <div class="">
+                      <div class="form-group col-xs-12" id="Tell_us_more___div">
+                      <label for="Tell_us_more_">Tell us more!</label>
+                      <textarea name="Tell us more!" id="Tell_us_more_" class="form-control">
+        </textarea>
+                  </div>
+                  </div>
+                  <br>
+                  <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
+                    <label for="subscribe_3e5823e14818_35260"></label>
+                    <input name="subscribe_3e5823e14818_35260" value="" tabindex="-1" autocomplete="off"
+                           type="email" id="email_subscribe_3e5823e14818_35260" placeholder="Your email here">
+                  </div>
+                  <div class="">
+                    <div class="col-xs-12">
+                      <input type="submit" value="Submit" class="btn btn-main-2" data-disable-with="Send" />
+                    </div>
+                  </div>
+                </fieldset>
+        </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+<div class="col-lg-4 col-md-6 my-auto py-3">
+  <img src="/images/about/todd_read.jpg" alt="" class="py-3 img-fluid w-100">
+  <img src="/images/about/preview_reading.jpg" alt="" class="img-fluid w-100">
+</div>
+</div>
+</div>
+
 <!-- Others books -->
 {{ if .Site.Data.homepage.otherBooks.enable }}
 {{ with .Site.Data.homepage.otherBooks }}
-<section class="bg-grey section section-bottom" id="otherBooks">
+<section class="section section-bottom" id="otherBooks">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6">
@@ -269,8 +299,6 @@
 </section>
 {{ end }}
 {{ end }}
-
-
 <!-- Device feature -->
 {{ if .Site.Data.homepage.devices.enable }}
 {{ with .Site.Data.homepage.devices }}
@@ -403,81 +431,52 @@
 {{ end }}
 {{ end }}
 
-<!-- Book a workshop Section -->
-{{ with .Site.Data.homepage.bookings }}
-<div id="booking" class="bg-grey py-5">
-  <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-12">
-      <div class="text-center">
-        <h1 class="text-lg">{{ .title | markdownify }}</h1>
-        <p>{{ .subtitle | markdownify }}</p>
 
+<!-- Book preview -->
+{{ if .Site.Data.homepage.preview.enable }}
+{{ with .Site.Data.homepage.preview }}
+<section class="section bg-grey" id="book">
+  <div class="container">
+    <div id="row" class="row justify-content-between">
+      <div class="col-lg-5">
+        <div class="pt-5 book-preview">
+          <img src="{{`images/about/kindle.png` | relURL}}" class="background-device img-fluid" alt="device">
+          <div class="book-pages">
+            {{ range .pagePreview }}
+            <div class="item">
+              <img src="{{ .image | relURL }}" alt="page-preview" class="img-fluid">
+              <div class="overlay">
+                <a href="{{ .image | relURL }}" class="popup-gallery img-fluid" data-title="Preview"><i
+                    class="ti-fullscreen"></i></a>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-5 col-lg-7">
+        <div class="section-heading book-info pt-mt-5">
+          <h2 class="text-md mb-4">{{ .title | markdownify }}</h2>
+          {{ .content | markdownify }}
+
+          <ul class="list-unstyled mt-4 mb-5">
+            {{ range .inside }}
+            <li><i class="ti-check mr-3"></i> {{ .insideItem | markdownify }}</li>
+            {{ end }}
+          </ul>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }}<i class="ti-arrow-right"></i></a>
+          {{ end }}
+
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
-  {{ end }}
-<br>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<div class="container">
-  <div class="row">
-    <section class="container col-xs-12 col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-3 my-4">
-        <div class="container" style="text-align:center;width:100%">
-        <form class="" target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/3e5823e14818" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
-          <fieldset>
-              <div class="">
-              <div class="form-group" id="Name___div">
-              <label title="required" for="Name:">Name: *</label>
-              <input type="text" name="Name:" id="Name:" required="required" class="form-control" />
-          </div>
-          </div>
-              <div class="">
-              <div class="form-group col-xs-12" id="Email___div">
-              <label title="required" for="Email:">Email: *</label>
-              <input type="email" name="Email:" id="Email:" required="required" class="form-control" />
-          </div>
-          </div>
-              <div class="">
-              <div class="form-group col-xs-12" id="Phone___div">
-              <label title="required" for="Phone:">Phone: *</label>
-              <input type="tel" name="Phone:" id="Phone:" required="required" class="form-control" />
-          </div>
-          </div>
-              <div class="">
-              <div class="form-group col-xs-12" id="Organization___div">
-              <label for="Organization:">Organization:</label>
-              <input type="text" name="Organization:" id="Organization:" class="form-control" />
-          </div>
-          </div>
-              <div class="">
-              <div class="form-group col-xs-12" id="What_s_the_best_time_day_to_reach_you___div">
-              <label title="required" for="What_s_the_best_time_day_to_reach_you_">What&#39;s the best time/day to reach you? *</label>
-              <input type="text" name="What&#39;s the best time/day to reach you?" id="What_s_the_best_time_day_to_reach_you_" required="required" class="form-control" />
-          </div>
-          </div>
-              <div class="">
-              <div class="form-group col-xs-12" id="Tell_us_more___div">
-              <label for="Tell_us_more_">Tell us more!</label>
-              <textarea name="Tell us more!" id="Tell_us_more_" class="form-control">
-</textarea>
-          </div>
-          </div>
-          <br>
-          <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
-            <label for="subscribe_3e5823e14818_35260"></label>
-            <input name="subscribe_3e5823e14818_35260" value="" tabindex="-1" autocomplete="off"
-                   type="email" id="email_subscribe_3e5823e14818_35260" placeholder="Your email here">
-          </div>
-          <div class="">
-            <div class="col-xs-12">
-              <input type="submit" value="Submit" class="btn btn-main-2" data-disable-with="Send" />
-            </div>
-          </div>
-        </fieldset>
-</form>
-      </div>
-    </section>
-  </div>
-</div>
-</div>
+</section>
+{{ end }}
+{{ end }}
 
 {{ end }}
