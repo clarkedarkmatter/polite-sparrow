@@ -3,9 +3,9 @@
 <!-- Banner -->
 {{ if .Site.Data.homepage.banner.enable }}
 {{ with .Site.Data.homepage.banner }}
-<section class="bg-grey py-7" id="banner">
+<section class="py-7" id="banner">
   <div class="container">
-    <div id="" class="row justify-content-between">
+    <div id="" class="row justify-content-between text-center">
       <div class="col-lg-5 col-md-8">
         <div class="main-banner">
           <span class="text-color font-weight-bold">{{ .writter | markdownify }}</span>
@@ -16,11 +16,8 @@
           </div>
           <h4 class="pb-3">{{ .content | markdownify }}</h4>
 
-          <!--<button class="snipcart-add-item btn btn-main mt-3" data-item-id="1"
-          data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="/">
-          See more<i class="ti-angle-right ml-3"></i>
-        </button>-->
         <div class="text-center mt-2">
+          <!--
           <button class="snipcart-add-item btn btn-main-2"
           data-item-id="Holiday Reading Book Bundle"
           data-item-price="65.00"
@@ -29,7 +26,8 @@
           data-item-image="/images/blog/holiday-reading-bundle.jpg"
           data-item-name="Holiday Reading Book Bundle">
           Add to cart
-          </button>
+          </button> -->
+          <a href="/blog"><button class="btn btn-main-2">Read A Preview</button></a>
 
         </div>
 
@@ -52,7 +50,7 @@
 <!-- Book preview -->
 {{ if .Site.Data.homepage.preview.enable }}
 {{ with .Site.Data.homepage.preview }}
-<section class="section" id="book">
+<section class="section bg-grey" id="book">
   <div class="container">
     <div id="row" class="row justify-content-between">
       <div class="col-lg-5">
@@ -120,7 +118,7 @@
 <!-- Quote -->
 {{ if .Site.Data.homepage.quote.enable }}
 {{ with .Site.Data.homepage.quote }}
-<section class="section bg-grey" id="quote">
+<section class="section" id="quote">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -170,7 +168,7 @@
 <!-- Review-->
 {{ if .Site.Data.homepage.reviews.enable }}
 {{ with .Site.Data.homepage.reviews }}
-<section class="py-5 bg-grey testimonial" id="review">
+<section class="py-5 testimonial" id="review">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-12">
@@ -238,11 +236,10 @@
 </section>
 {{ end }}
 
-<hr>
 <!-- Others books -->
 {{ if .Site.Data.homepage.otherBooks.enable }}
 {{ with .Site.Data.homepage.otherBooks }}
-<section class="section section-bottom" id="otherBooks">
+<section class="bg-grey section section-bottom" id="otherBooks">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6">
@@ -273,8 +270,6 @@
 {{ end }}
 {{ end }}
 
-
-<hr>
 
 <!-- Device feature -->
 {{ if .Site.Data.homepage.devices.enable }}
@@ -321,7 +316,7 @@
 <!-- About Author -->
 {{ if .Site.Data.homepage.author.enable }}
 {{ with .Site.Data.homepage.author }}
-<section class="py-7 about section" id="author">
+<section class="py-7 testimonial" id="author">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-5">
@@ -346,7 +341,7 @@
 </section>
 {{ end }}
 {{ end }}
-<hr>
+
 <!-- Awards -->
 {{ if .Site.Data.homepage.awards.enable }}
 {{ with .Site.Data.homepage.awards }}
