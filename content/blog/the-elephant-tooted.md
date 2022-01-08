@@ -31,7 +31,7 @@ event: ""
 This book will be available through our web store and Amazon on Feb. 2, 2022. Contact Todd to Pre-Order.
 
 ## Read a sample:
-{{< gallery-slider dir="/images/blog/elephant-tooted/" auto-slide="20000" height="500px" width="350px" >}}
 
+{{< gallery-slider dir="/images/blog/elephant-tooted/" auto-slide="20000" height="500px" width="350px" >}}
 
 ***If you're local, get a copy delivered. Or we'll ship anywhere in the US with no extra cost to you!***
