@@ -70,18 +70,13 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
 
 [[menu.main]]
 name = "Books"
-URL = "otherBooks"
+URL = "/categories/books/"
 weight = 1
 
 [[menu.main]]
-name = "Events"
+name = "Blog"
 URL = "blog"
 weight = 2
-
-[[menu.main]]
-name = "Read"
-URL = "blog"
-weight = 3
 
 [[menu.main]]
 name = "Reviews"

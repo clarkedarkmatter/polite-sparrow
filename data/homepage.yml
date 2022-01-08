@@ -1,10 +1,10 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Perfect Stocking Stuffers for Your Favorite Readers"
-  title : "Available Now: Holiday Readers Book Bundle"
-  image : "https://authortodd.b-cdn.net/images/blog/holiday-reading-bundle.jpg"
-  content : "Get all 6 of Todd's books, bookmarks, and hundreds of stories to share with the classroom or family! We'll ship directly to you - just in time for the holidays!"
+  writter : "Available On Amazon on 2/2/22"
+  title : "The Elephant Tooted"
+  image : "/images/blog/elephant.jpg"
+  content : "A Story about the Misunderstandings and Friendships of a group of animals."
   price : "14.99"
 
 ######################## Book Preview ##########################
@@ -20,7 +20,7 @@ preview:
     - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/6.png"
     - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/1.png"
 
-  title : "Read a sample of Smile and Soul, available now!"
+  title : "Click to read a sample of Smile and Soul, available now!"
   content : "
   You never know where you're going to end up with Todd's hilarious style. Twists and turns and unexpected 'concerns' - his work covers an array of topics tailored to the modern day young person."
   inside:
@@ -163,7 +163,7 @@ devices:
 author:
   enable : true
   image : "images/about/todd.jpg"
-  name : "Todd Schimmell"
+  name : "About The Author"
   designation : "Father, Author, Illustrator, Student Resource Officer, Youth Leader"
   content : "
   Todd Schimmell is happily married father of 4 children. He was born, raised, and currently resides in Southern Indiana.
