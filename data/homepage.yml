@@ -205,8 +205,8 @@ awards:
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "More books by Author Todd"
-  subtitle : "Author Todd has published 6 books in total. Click to read previews of each."
+  title : "More Books By Author Todd"
+  subtitle : "Author Todd has published 6 books in total. Click to read a preview of each!"
   book:
 
     # books loop
