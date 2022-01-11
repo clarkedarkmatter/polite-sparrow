@@ -1,8 +1,8 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Available On Amazon on 2/2/22"
-  title : "The Elephant Tooted"
+  writter : "Book Available To Amazon On 2/2/22"
+  title : "Coming Soon: The Elephant Tooted"
   image : "/images/blog/elephant.jpg"
   content : "Elephant waits by her favorite tree for her friends to walk by at the end of everyday. One day Giraffe heard a loud TOOT coming from Elephant's direction."
   price : "14.99"
