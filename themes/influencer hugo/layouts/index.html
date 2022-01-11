@@ -3,7 +3,7 @@
 <!-- Banner -->
 {{ if .Site.Data.homepage.banner.enable }}
 {{ with .Site.Data.homepage.banner }}
-<section class="py-7 mt-1" id="">
+<section class="py-7" id="">
   <div class="container">
     <div id="" class="row text-center">
 
@@ -32,7 +32,7 @@
           data-item-name="Holiday Reading Book Bundle">
           Add to cart
           </button> -->
-          <a href="/blog/the-elephant-tooted"><button class="btn btn-main-2">Read A Preview</button></a>
+          <a href="/blog/the-elephant-tooted"><button class="btn btn-main-2">Read A Sample</button></a>
 
         </div>
 
@@ -119,12 +119,12 @@
 <!-- Review-->
 {{ if .Site.Data.homepage.reviews.enable }}
 {{ with .Site.Data.homepage.reviews }}
-<section class="pt-5 pb-5 bg-grey" id="review">
+<section class="pt-4 pb-2 bg-grey" id="review">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-12">
         <div class="section-heading text-center">
-          <h2 class="mb-3 text-lg">{{ .title | markdownify }}</h2>
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
           <p>{{ .subtitle | markdownify }}</p>
         </div>
       </div>
@@ -189,9 +189,9 @@
 
 <!-- Book a workshop Section -->
 {{ with .Site.Data.homepage.bookings }}
-<div id="booking" class="bg-grey py-7 px-5">
+<div id="booking" class="bg-grey py-7">
   <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-5">
+    <div class="col-lg-3 col-md-3 col-sm-10">
       <div class="text-center">
         <h1 class="text-lg">{{ .title | markdownify }}</h1>
         <p>{{ .subtitle | markdownify }}</p>
@@ -199,69 +199,67 @@
         <div class="container">
           <div class="row">
             <section class="container">
-                <div class="container" style="text-align:center;width:100%">
-                <form class="" target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/3e5823e14818" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
-                  <fieldset>
-                      <div class="">
-                      <div class="form-group" id="Name___div">
-                      <label title="required" for="Name:">Name: *</label>
-                      <input type="text" name="Name:" id="Name:" required="required" class="form-control" />
-                  </div>
-                  </div>
-                      <div class="">
-                      <div class="form-group col-xs-12" id="Email___div">
-                      <label title="required" for="Email:">Email: *</label>
-                      <input type="email" name="Email:" id="Email:" required="required" class="form-control" />
-                  </div>
-                  </div>
-                      <div class="">
-                      <div class="form-group col-xs-12" id="Phone___div">
-                      <label title="required" for="Phone:">Phone: *</label>
-                      <input type="tel" name="Phone:" id="Phone:" required="required" class="form-control" />
-                  </div>
-                  </div>
-                      <div class="">
-                      <div class="form-group col-xs-12" id="Organization___div">
-                      <label for="Organization:">Organization:</label>
-                      <input type="text" name="Organization:" id="Organization:" class="form-control" />
-                  </div>
-                  </div>
-                      <div class="">
-                      <div class="form-group col-xs-12" id="What_s_the_best_time_day_to_reach_you___div">
-                      <label title="required" for="What_s_the_best_time_day_to_reach_you_">What&#39;s the best time/day to reach you? *</label>
-                      <input type="text" name="What&#39;s the best time/day to reach you?" id="What_s_the_best_time_day_to_reach_you_" required="required" class="form-control" />
-                  </div>
-                  </div>
-                      <div class="">
-                      <div class="form-group col-xs-12" id="Tell_us_more___div">
-                      <label for="Tell_us_more_">Tell us more!</label>
-                      <textarea name="Tell us more!" id="Tell_us_more_" class="form-control">
-        </textarea>
-                  </div>
-                  </div>
-                  <br>
-                  <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
-                    <label for="subscribe_3e5823e14818_35260"></label>
-                    <input name="subscribe_3e5823e14818_35260" value="" tabindex="-1" autocomplete="off"
-                           type="email" id="email_subscribe_3e5823e14818_35260" placeholder="Your email here">
-                  </div>
-                  <div class="">
-                    <div class="col-xs-12">
-                      <input type="submit" value="Submit" class="btn btn-main-2" data-disable-with="Send" />
-                    </div>
-                  </div>
-                </fieldset>
-        </form>
-              </div>
+              <img src="/images/about/preview_reading.jpg" alt="" class="img-fluid w-100 pb-3">
             </section>
           </div>
         </div>
       </div>
     </div>
   {{ end }}
-<div class="col-lg-4 col-md-6 my-auto py-3">
-  <img src="/images/about/todd_read.jpg" alt="" class="py-3 img-fluid w-100">
-  <img src="/images/about/preview_reading.jpg" alt="" class="img-fluid w-100">
+<div class="text-align-center px-5 col-lg-5 col-md-5 col-sm-11">
+  <form class="" target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/3e5823e14818" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+    <fieldset>
+        <div class="">
+        <div class="form-group" id="Name___div">
+        <label title="required" for="Name:">Name: *</label>
+        <input type="text" name="Name:" id="Name:" required="required" class="form-control" />
+    </div>
+    </div>
+        <div class="">
+        <div class="form-group col-xs-12" id="Email___div">
+        <label title="required" for="Email:">Email: *</label>
+        <input type="email" name="Email:" id="Email:" required="required" class="form-control" />
+    </div>
+    </div>
+        <div class="">
+        <div class="form-group col-xs-12" id="Phone___div">
+        <label title="required" for="Phone:">Phone: *</label>
+        <input type="tel" name="Phone:" id="Phone:" required="required" class="form-control" />
+    </div>
+    </div>
+        <div class="">
+        <div class="form-group col-xs-12" id="Organization___div">
+        <label for="Organization:">Organization:</label>
+        <input type="text" name="Organization:" id="Organization:" class="form-control" />
+    </div>
+    </div>
+        <div class="">
+        <div class="form-group col-xs-12" id="What_s_the_best_time_day_to_reach_you___div">
+        <label title="required" for="What_s_the_best_time_day_to_reach_you_">What&#39;s the best time/day to reach you? *</label>
+        <input type="text" name="What&#39;s the best time/day to reach you?" id="What_s_the_best_time_day_to_reach_you_" required="required" class="form-control" />
+    </div>
+    </div>
+        <div class="">
+        <div class="form-group col-xs-12" id="Tell_us_more___div">
+        <label for="Tell_us_more_">Tell us more!</label>
+        <textarea name="Tell us more!" id="Tell_us_more_" class="form-control">
+</textarea>
+    </div>
+    </div>
+    <br>
+    <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
+      <label for="subscribe_3e5823e14818_35260"></label>
+      <input name="subscribe_3e5823e14818_35260" value="" tabindex="-1" autocomplete="off"
+             type="email" id="email_subscribe_3e5823e14818_35260" placeholder="Your email here">
+    </div>
+    <div class="">
+      <div class="col-xs-12">
+        <input type="submit" value="Submit" class="btn btn-main-2" data-disable-with="Send" />
+      </div>
+    </div>
+  </fieldset>
+</form>
+
 </div>
 </div>
 </div>
