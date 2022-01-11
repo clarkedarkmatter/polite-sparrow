@@ -6,9 +6,10 @@ summaryLength = "10"
 paginate = 6
 themesDir = "themes"
 publishDir = "public"
+img = "https://authortodd.b-cdn.net/images/blog/newburgh-full.jpg"
 
 [params]
-  logo = "https://authortodd.b-cdn.net/logo.png"
+  logo = "https://authortodd.b-cdn.net/images/blog/newburgh-full.jpg"
   img = "test"
   home = "Home"
   description = "Test"

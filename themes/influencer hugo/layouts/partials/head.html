@@ -30,11 +30,11 @@
 
  <!-- seo -->
 
-  <meta property="og:title" content="{{ .Params.Title }} | {{ .Site.Title }}" />
+  <meta property="og:title" content="{{ .Params.Title }} {{ .Site.Title }}" />
   <meta property="og:type" content="{{ .Params.type }}" />
   <meta property="og:description" content="{{ .Params.description }}" />
   <meta property="og:url" content="{{ .Params.url }}" />
-  <meta property="og:image" content='{{ if (isset .Site "img" ) }} {{ .Site.img }} {{ else if (isset .Params "metaimage") }} {{ .Params.metaimage }} {{ else }} {{ .Params.image }} {{ end }}' />
+  <meta property="og:image" content="{{ .Site.img }}" />
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DST9XBY9W9"></script>
