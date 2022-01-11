@@ -30,7 +30,7 @@
 
  <!-- seo -->
 
-  <meta property="og:title" content="{{ .Params.Title }}{{ .Site.Title }}" />
+  <meta property="og:title" content='{{ if (isset .Params "title") }} {{ .Params.Title }} {{ else }} {{ .Site.Title }} {{ end }}' />
   <meta property="og:type" content="{{ .Params.type }}" />
   <meta property="og:description" content="{{ .Params.description }}" />
   <meta property="og:url" content="{{ .Params.url }}" />
