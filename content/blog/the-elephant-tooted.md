@@ -28,7 +28,7 @@ event: ""
 ---
 ---
 
-This book will be available through our web store and Amazon on Feb. 2, 2022. Contact Todd to Pre-Order.
+This book will be available through our web store and Amazon on Feb. 2, 2022. Contact Todd to Pre-Order Today!
 
 ## Read a sample:
 

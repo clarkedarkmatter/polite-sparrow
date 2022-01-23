@@ -1,7 +1,7 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Book Available On Amazon 2/2/22!"
+  writter : "Book Available On Amazon 2/2/22"
   title : "Coming Soon: The Elephant Tooted"
   image : "/images/blog/elephant.jpg"
   content : "Elephant waits by her favorite tree for her friends to walk by at the end of everyday. One day Giraffe heard a loud TOOT coming from Elephant's direction."
@@ -205,7 +205,7 @@ awards:
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "More Books By Author Todd"
+  title : "Books By Author Todd"
   subtitle : "Author Todd has published 6 books in total. Click to read a preview of each!"
   book:
 
