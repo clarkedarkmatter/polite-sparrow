@@ -189,9 +189,43 @@
 {{ end }}
 {{ end }}
 
+<!-- Others books -->
+{{ if .Site.Data.homepage.otherBooks.enable }}
+{{ with .Site.Data.homepage.otherBooks }}
+<section class="section section-bottom bg-grey py-7" id="otherBooks">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-heading text-center">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      {{ range .book }}
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <div class="book-item py-2 mb-4 mb-lg-0">
+          <img src="{{ .image | relURL }}" alt="" class="img-fluid">
+          <a href="{{ .link | safeURL }}" class="hover-item">
+            <i class="ti-book"></i>
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="text-center mt-5">
+      <a href="/categories/books" class="btn btn-main-2">See All Books <i class="ti-book"></i></a>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
 <!-- Book a workshop Section -->
 {{ with .Site.Data.homepage.bookings }}
-<div id="booking" class="bg-grey py-7">
+<div id="booking" class="py-7">
   <div class="row justify-content-center">
     <div class="col-lg-3 col-md-3 col-sm-10">
       <div class="text-center">
@@ -266,39 +300,7 @@
 </div>
 </div>
 
-<!-- Others books -->
-{{ if .Site.Data.homepage.otherBooks.enable }}
-{{ with .Site.Data.homepage.otherBooks }}
-<section class="section section-bottom py-7" id="otherBooks">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6">
-        <div class="section-heading text-center">
-          <h2 class="text-lg">{{ .title | markdownify }}</h2>
-          <p>{{ .subtitle | markdownify }}</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="row justify-content-center">
-      {{ range .book }}
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="book-item py-2 mb-4 mb-lg-0">
-          <img src="{{ .image | relURL }}" alt="" class="img-fluid">
-          <a href="{{ .link | safeURL }}" class="hover-item">
-            <i class="ti-book"></i>
-          </a>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-    <div class="text-center mt-5">
-      <a href="/categories/books" class="btn btn-main-2">See All Books <i class="ti-book"></i></a>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
 <!-- Device feature -->
 {{ if .Site.Data.homepage.devices.enable }}
 {{ with .Site.Data.homepage.devices }}
