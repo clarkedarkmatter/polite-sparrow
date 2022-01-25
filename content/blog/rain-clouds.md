@@ -9,7 +9,7 @@ author : "Todd Schimmell"
 # post thumb
 metaimage: "/images/blog/rain.jpg"
 image: "/images/blog/rain.jpg"
-url: "/blog/rain-cloud"
+url: "/blog/rain-clouds"
 
 
 # meta description
