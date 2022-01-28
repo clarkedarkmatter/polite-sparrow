@@ -35,3 +35,5 @@ This book will be available through our web store and Amazon on Feb. 2, 2022. Co
 {{< gallery-slider dir="/images/blog/elephant-tooted/" auto-slide="20000" height="500px" width="350px" >}}
 
 Pre-Order 'The Elephant Tooted' by contacting Author Todd --> [here](https://authortodd.com/#contact).
+
+## [--> Read A Poem](/blog/everything-must-go)
