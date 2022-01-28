@@ -28,7 +28,7 @@ event: ""
 ---
 ---
 
-### "Every must go!" yells Jack Monroe.
+### "Everything must go!" yells Jack Monroe.
 #### He'll sell anything to make some dough.
 #### It doesn't matter what or to who,
 #### If it's something old, borrowed, or new.
