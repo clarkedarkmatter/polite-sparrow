@@ -7,8 +7,8 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-metaimage: "/images/blog/rain.jpg"
-image: "/images/blog/rain.jpg"
+metaimage: "https://authortodd.b-cdn.net/images/blog/rain.jpg"
+image: "https://authortodd.b-cdn.net/images/blog/rain.jpg"
 url: "/blog/rain-clouds"
 
 
@@ -34,7 +34,7 @@ event: ""
 
 #### Without giving me a chance or say.
 
-![Rain Cloud](/images/blog/rain-min.png)
+![Rain Cloud](https://authortodd.b-cdn.net/images/blog/rain-min.png)
 
 ## So I fought back with a garden hose.
 
