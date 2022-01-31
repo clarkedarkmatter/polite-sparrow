@@ -58,7 +58,7 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
   [[params.share]]
   title = "facebook"
   icon = "ti-facebook"
-  link = "#"
+  link = "https://www.facebook.com/Authortoddschimmell"
 
   [[params.share]]
   title = "twitter"
