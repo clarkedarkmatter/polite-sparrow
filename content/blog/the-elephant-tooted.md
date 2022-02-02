@@ -31,3 +31,7 @@ event: ""
 ## Read a sample:
 
 {{< gallery-slider dir="/images/blog/elephant-tooted/" auto-slide="20000" height="500px" width="350px" >}}
+
+---
+
+This book was written to teach children about the dangers of rumors in a funny and engaging way.
