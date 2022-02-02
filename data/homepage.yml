@@ -206,32 +206,30 @@ awards:
 otherBooks:
   enable : true
   title : "Books By Author Todd"
-  subtitle : "Author Todd has published 6 books in total. Click to read a preview of each!"
+  subtitle : "Author Todd has published 7 incredible children's books. Click to read a preview of each!"
   book:
-
     # books loop
+
     - image : "https://authortodd.b-cdn.net/images/blog/the-fun-reader/1.png"
       link : "/blog/the-fun-reader"
 
-    # books loop
     - image : "https://authortodd.b-cdn.net/images/blog/the-book-that-stunk/1.png"
       link : "/blog/the-book-that-stunk"
 
-    # books loop
     - image : "https://authortodd.b-cdn.net/images/blog/pass-the-time/1.png"
       link : "/blog/pass-the-time"
 
-    # books loop
     - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/1-ab.png"
       link : "/blog/smile-and-soul"
 
-    # books loop
     - image : "https://authortodd.b-cdn.net/images/blog/nursery-rhymes/1.png"
       link : "/blog/nursery-rhymes/"
 
-    # books loop
     - image : "https://authortodd.b-cdn.net/images/blog/nursery-rhymes-vol-2/1.png"
       link : "/blog/nursery-rhymes-vol-2/"
+
+    - image : "https://authortodd.b-cdn.net/images/blog/elephant-tooted/1-cover.png"
+      link : "/blog/the-elephant-tooted/"
 
 
 bookings:
