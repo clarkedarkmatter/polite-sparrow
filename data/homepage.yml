@@ -1,11 +1,11 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Book Available On Amazon 2/2/22"
-  title : "Coming Soon: The Elephant Tooted"
+  writter : "Kindergarten-Approved, Available Today"
+  title : "Just Released: The Elephant Tooted"
   image : "/images/blog/elephant.jpg"
-  content : "Elephant waits by her favorite tree for her friends to walk by at the end of everyday. One day Giraffe heard a loud TOOT coming from Elephant's direction."
-  price : "14.99"
+  content : "This book was written to teach children about the dangers of rumors in a funny and engaging way."
+  price : "12.00"
 
 ######################## Book Preview ##########################
 preview:

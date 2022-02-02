@@ -10,9 +10,9 @@ author : "Todd Schimmell"
 
 #Snipcart/Amazon Button Generate
 
-afflink: "https://amzn.to/2Ylnec3"
+afflink: "https://amzn.to/3gim32E"
 image: "/images/blog/elephant-tooted/1-cover.png"
-price: "15.00"
+price: "12.00"
 url: "/blog/the-elephant-tooted"
 full_url: "https://authortodd.com/blog/the-elephant-tooted"
 
@@ -22,18 +22,16 @@ categories: ["Books"]
 tags: ["Elephant Tooted", "2022", "Funny"]
 # post type
 type: "post"
-book: ""
-post: "x"
+book: "x"
+post: ""
 event: ""
 ---
 ---
 
-This book will be available through our web store and Amazon on Feb. 2, 2022. Contact Todd to Pre-Order Today!
+## AVAILABLE NOW ON AMAZON AND OUR WEB STORE!
 
 ## Read a sample:
 
 {{< gallery-slider dir="/images/blog/elephant-tooted/" auto-slide="20000" height="500px" width="350px" >}}
 
-Pre-Order 'The Elephant Tooted' by contacting Author Todd --> [here](https://authortodd.com/#contact).
-
-## [--> Read A Poem](/blog/everything-must-go)
+## [--> Click to See Author Todd Reading 'The Elephant Tooted'](/blog/kindergarten-approved)

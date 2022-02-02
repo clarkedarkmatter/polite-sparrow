@@ -33,7 +33,8 @@
                 Add to cart
                 </button>
                 <hr>
-                <p>Prefer to buy through Amazon?<br><a href="{{ .Params.afflink }}">Click Here.</a></p><hr>
+                <h3>Prefer to buy through Amazon?<br>
+                <a href="{{ .Params.afflink }}">Click Here</a></h3><hr>
              {{ else if .Params.event }}
              <a href="/#booking"><button class="btn btn-main-2">Book a Workshop</button></a>
              {{ else }}
@@ -48,7 +49,7 @@
                 <h4>Visit Author Todd on Social:</h4>
               </li>
               {{ range .Site.Params.share }}
-              <li class="list-inline-item mb-2 mb-lg-0"><a href="#" target="_blank"><i class="{{ .icon }} mr-2" aria-hidden="true"></i>{{ .name }}</a></li>
+              <li class="list-inline-item mb-2 mb-lg-0"><a href="{{ .link }}" target="_blank"><i class="{{ .icon }} mr-2" aria-hidden="true"></i>{{ .name }}</a></li>
               {{ end }}
             </ul>
           </div>
