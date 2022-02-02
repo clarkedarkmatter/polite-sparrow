@@ -11,7 +11,7 @@ author : "Todd Schimmell"
 #Snipcart/Amazon Button Generate
 
 afflink: "https://amzn.to/3gim32E"
-image: "/images/blog/elephant-tooted/1-cover.png"
+image: "https://authortodd.b-cdn.net/images/blog/elephant-tooted/1-cover.png"
 price: "12.00"
 url: "/blog/the-elephant-tooted"
 full_url: "https://authortodd.com/blog/the-elephant-tooted"
