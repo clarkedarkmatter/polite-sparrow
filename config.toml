@@ -63,12 +63,12 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
   [[params.share]]
   title = "twitter"
   icon = "ti-twitter-alt"
-  link = "#"
+  link = "https://twitter.com/thefunreader"
 
   [[params.share]]
-  title = "linkedin"
-  icon = "ti-linkedin"
-  link = ""
+  title = "instagram"
+  icon = "ti-instagram"
+  link = "https://www.instagram.com/author_todd/"
 
 [[menu.main]]
 name = "Books"
