@@ -28,10 +28,6 @@ event: ""
 ---
 ---
 
-## AVAILABLE NOW ON AMAZON AND OUR WEB STORE!
-
 ## Read a sample:
 
 {{< gallery-slider dir="/images/blog/elephant-tooted/" auto-slide="20000" height="500px" width="350px" >}}
-
-## [--> Click to See Author Todd Reading 'The Elephant Tooted'](/blog/kindergarten-approved)
