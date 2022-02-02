@@ -23,7 +23,7 @@
               <div class="text-center">
               {{ if .Params.book }}
                 <h2>${{ .Params.price }}</h2>
-                <button class="snipcart-add-item btn btn-main-2"
+                <!-- <button class="snipcart-add-item btn btn-main-2"
                 data-item-id="{{ .Params.title }}"
                 data-item-price="{{ .Params.price }}"
                 data-item-url="{{ .Params.full_url }}"
@@ -32,9 +32,8 @@
                 data-item-name="{{ .Params.title }}">
                 Add to cart
                 </button>
-                <hr>
-                <h3>Prefer to buy through Amazon?<br>
-                <a href="{{ .Params.afflink }}">Click Here</a></h3><hr>
+                <hr>-->
+                <a href="{{ .Params.afflink }}"><button class="btn btn-main-2">View Book On Amazon</button></a>
              {{ else if .Params.event }}
              <a href="/#booking"><button class="btn btn-main-2">Book a Workshop</button></a>
              {{ else }}
