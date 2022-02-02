@@ -11,7 +11,7 @@ author : "Todd Schimmell"
 #Snipcart/Amazon Button Generate
 
 afflink: "https://amzn.to/2Ylnec3"
-image: "images/about/thefunreader.jpg"
+image: "https://authortodd.b-cdn.net/images/about/thefunreader.jpg"
 price: "15.00"
 url: "/blog/the-fun-reader"
 full_url: "https://authortodd.com/blog/the-fun-reader"

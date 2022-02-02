@@ -7,7 +7,7 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-image: "/images/blog/winslow/winslow-hero.jpg"
+image: "https://authortodd.b-cdn.net/images/blog/winslow/winslow-hero.jpg"
 
 # meta description
 description: "Author Todd reads some new and old work to a great audience at Winslow Elementary."

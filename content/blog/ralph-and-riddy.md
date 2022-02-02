@@ -29,7 +29,7 @@ event: ""
 
 ## Giggling so hard they can’t catch their breath.
 
-![R & R](/images/blog/ralph-and-riddy.png)
+![R & R](https://authortodd.b-cdn.net/images/blog/ralph-and-riddy.png)
 
 ## The food is right there, they could eat with ease,
 
