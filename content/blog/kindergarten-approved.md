@@ -26,24 +26,15 @@ posts: "x"
 event: ""
 ---
 
+#### We finished up our Kindergarten safety lessons today so we had a little fun with 'The Elephant Tooted.'
+
+#### I think it's safe to say it has been Kindergarten approved!😂🐘
 
 ![Kindergarten Todd](https://authortodd.b-cdn.net/images/blog/kindergarten-mobile.png)
 
-#### We finished up our Kindergarten safety lessons today so we had a little fun with 'The Elephant Tooted.'
-
-## I think it's safe to say it has been Kindergarten approved!😂🐘
-
----
-
 #### I love sneaking in life lessons with giggles and smiles. Laughing and learning is the BEST combination!!!
 
-### #LoveHardToday #KindergartenApproved
-
-
+#### [This post features the upcoming book 'The Elephant Tooted.' Click here to read a sample!](/blog/the-elephant-tooted).
 ---
 
 ## [--> Read Next Poem](/blog/rain-clouds)
-
-This post features the upcoming book 'The Elephant Tooted.' Contact Todd Today To Pre-Order!
-
-[Click Here Read a Sample](/blog/the-elephant-tooted).
