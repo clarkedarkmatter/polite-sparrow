@@ -34,7 +34,7 @@ event: ""
 
 #### I love sneaking in life lessons with giggles and smiles. Laughing and learning is the BEST combination!!!
 
-#### [This post features the upcoming book 'The Elephant Tooted.' Click here to read a sample!](/blog/the-elephant-tooted).
+#### [This post features the upcoming book 'The Elephant Tooted.' Click here to read a sample!](/blog/the-elephant-tooted)
 ---
 
 ## [--> Read Next Poem](/blog/rain-clouds)
