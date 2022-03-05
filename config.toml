@@ -71,7 +71,7 @@ URL = "plugins/magnific-popup/magnific-popup.min.js"
   link = "https://www.instagram.com/author_todd/"
 
 [[menu.main]]
-name = "Books"
+name = "Shop"
 URL = "otherBooks"
 weight = 1
 

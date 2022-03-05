@@ -28,10 +28,15 @@ event: ""
 ---
 ---
 
+#### The Elephant Tooted is the first book in the Kids' Compass Series.
+
+
 ## Read a sample:
 
 {{< gallery-slider dir="/images/blog/elephant-tooted/" auto-slide="20000" height="500px" width="350px" >}}
 
+#### Read the Next Book in the Kids' Compass Series --> [Carl the Chameleon](/blog/carl-the-chameleon)
+
 ---
 
-This book was written to teach children about the dangers of rumors in a funny and engaging way.
+##### This book was written to teach children about the dangers of rumors in a funny and engaging way.
