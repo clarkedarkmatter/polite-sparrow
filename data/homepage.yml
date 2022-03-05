@@ -206,7 +206,7 @@ awards:
 otherBooks:
   enable : true
   title : "Books By Author Todd"
-  subtitle : "Author Todd has published 7 incredible children's books. Read a preview and order by clicking below."
+  subtitle : "Author Todd publishes books for everyone. Read a preview by clicking one below."
   book:
     - image : "https://authortodd.b-cdn.net/images/about/carl.png"
       link : "/blog/carl-the-chameleon/"
