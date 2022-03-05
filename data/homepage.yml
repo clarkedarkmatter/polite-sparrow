@@ -1,10 +1,10 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Kindergarten-Approved, Available Today"
-  title : "Just Released: The Elephant Tooted"
-  image : "/images/blog/elephant.jpg"
-  content : "This book was written to teach children about the dangers of rumors in a funny and engaging way."
+  writter : "Three books. Countless memories. Order yours today."
+  title : "The Kids' Compass Series"
+  image : "https://authortodd.b-cdn.net/images/blog/kids-compass.jpg"
+  content : "Engaging follow-up questions at the end of each book guide the learning journey. Order on Amazon today."
   price : "12.00"
 
 ######################## Book Preview ##########################
@@ -206,21 +206,19 @@ awards:
 otherBooks:
   enable : true
   title : "Books By Author Todd"
-  subtitle : "Author Todd has published 7 incredible children's books. Click to read a preview of each!"
+  subtitle : "Author Todd has published 7 incredible children's books. Read a preview and order by clicking below."
   book:
-    # books loop
+    - image : "https://authortodd.b-cdn.net/images/about/carl.png"
+      link : "/blog/carl-the-chameleon/"
 
-    - image : "https://authortodd.b-cdn.net/images/blog/the-fun-reader/1.png"
-      link : "/blog/the-fun-reader"
-
-    - image : "https://authortodd.b-cdn.net/images/blog/the-book-that-stunk/1.png"
-      link : "/blog/the-book-that-stunk"
-
-    - image : "https://authortodd.b-cdn.net/images/blog/pass-the-time/1.png"
-      link : "/blog/pass-the-time"
+    - image : "https://authortodd.b-cdn.net/images/blog/elephant-tooted/1-cover.png"
+      link : "/blog/the-elephant-tooted/"
 
     - image : "https://authortodd.b-cdn.net/images/blog/smile-and-soul/1-ab.png"
       link : "/blog/smile-and-soul"
+
+    - image : "https://authortodd.b-cdn.net/images/blog/pass-the-time/1.png"
+      link : "/blog/pass-the-time"
 
     - image : "https://authortodd.b-cdn.net/images/blog/nursery-rhymes/1.png"
       link : "/blog/nursery-rhymes/"
@@ -228,9 +226,11 @@ otherBooks:
     - image : "https://authortodd.b-cdn.net/images/blog/nursery-rhymes-vol-2/1.png"
       link : "/blog/nursery-rhymes-vol-2/"
 
-    - image : "https://authortodd.b-cdn.net/images/blog/elephant-tooted/1-cover.png"
-      link : "/blog/the-elephant-tooted/"
+    - image : "https://authortodd.b-cdn.net/images/blog/the-book-that-stunk/1.png"
+      link : "/blog/the-book-that-stunk"
 
+    - image : "https://authortodd.b-cdn.net/images/blog/the-fun-reader/1.png"
+      link : "/blog/the-fun-reader"
 
 bookings:
   enable : true
@@ -241,7 +241,7 @@ bookings:
 ################################ Blog ###################################
 blog:
   enable : true
-  title : "The Latest"
+  title : "Blog"
   subtitle : "Home to book details and descriptions, event pictures, new poems and more! A good place to explore what Author Todd does."
   # blog post comes from 'content/blog'
 
