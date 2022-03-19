@@ -8,18 +8,18 @@
     <div id="" class="row text-center">
 
     {{ if .image }}
-    <div class="col-lg-6">
+    <div class="col-lg-6 py-5">
       <div id="banner-img" class="justify-content-end">
         <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
       </div>
     </div>
     {{ end }}
-      <div class="col-lg-6 col-md-8">
-        <div class="pt-5">
+      <div class="col-lg-6 col-md-8 py-5">
+        <div class="">
           <span class="text-color font-weight-bold">{{ .writter | markdownify }}</span>
-          <h1 class="mb-4 mt-2">{{ .title | markdownify }}</h1>
+          <h1 class="mb-2 mt-2">{{ .title | markdownify }}</h1>
 
-          <h5 class="pb-3">{{ .content | markdownify }}</h5>
+          <h5 class="">{{ .content | markdownify }}</h5>
 
         <div class="text-center mt-2">
           <!--
@@ -48,7 +48,7 @@
 <!--Services -->
 {{ if .Site.Data.homepage.service.enable }}
 {{ with .Site.Data.homepage.service }}
-<section class="pt-4 section-bottom" id="service">
+<section class="section-bottom" id="service">
   <div class="container">
     <div class="row align-items-center">
       {{ range .serviceItem }}
@@ -120,7 +120,7 @@
 
 <!-- Latest blog -->
 {{ if .Site.Data.homepage.blog.enable }}
-<section class="section blog-home border-top bg-grey" id="blog">
+<section class="blog-home border-top bg-grey py-5" id="blog">
   <div class="container">
     {{ with .Site.Data.homepage.blog }}
     <div class="row justify-content-center">

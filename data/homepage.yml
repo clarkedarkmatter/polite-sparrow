@@ -3,7 +3,7 @@ banner:
   enable : true
   writter : "Three books. Countless memories. Order yours today."
   title : "The Kids' Compass Series"
-  image : "https://authortodd.b-cdn.net/images/blog/kids-compass.jpg"
+  image : "/images/about/kids-compass.png"
   content : "Engaging follow-up questions at the end of each book guide the learning journey. Order on Amazon today."
   price : "12.00"
 
