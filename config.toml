@@ -10,7 +10,7 @@ img = "https://authortodd.b-cdn.net/images/blog/newburgh-full.jpg"
 
 [params]
   logo = "https://authortodd.b-cdn.net/logo.png"
-  img = "test"
+  img = ""
   home = "Home"
   description = "Home of Books, Workshops and More."
   author = ""
