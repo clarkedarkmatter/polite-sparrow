@@ -28,6 +28,14 @@ event: ""
 ---
 ---
 
+
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
 In my next book 'Curious Troll' I have one picture with a trout named Oscar. I knew he didn't look right and he stumped me all weekend.
 
 I sent several variations to my wife and she would reject them all right away.
@@ -36,7 +44,7 @@ I sent several variations to my wife and she would reject them all right away.
 
 ---
 
-![Oscar](/images/blog/oscar/4.png)
+![Oscar](https://authortodd.b-cdn.net/images/blog/oscar/4.png)
 
 
 ---
@@ -49,7 +57,7 @@ I'm so glad I have a partner who knows my abilities and will push me to get wher
 
 ---
 
-![Oscar](/images/blog/oscar/3.png)
+![Oscar](https://authortodd.b-cdn.net/images/blog/oscar/3.png)
 
 ---
 
