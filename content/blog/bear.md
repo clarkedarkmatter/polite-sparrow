@@ -28,6 +28,7 @@ event: ""
 ---
 ---
 
+
 #### Bear Says Quack is the third book in the Kids' Compass Series.
 
 ## Read a sample:

@@ -18,7 +18,7 @@ full_url: "https://authortodd.com/blog/oscar-the-trout"
 
 
 # taxonomies
-categories: ["Books"]
+categories: ["Characters"]
 tags: ["Curious Troll", "2022"]
 # post type
 type: "post"
