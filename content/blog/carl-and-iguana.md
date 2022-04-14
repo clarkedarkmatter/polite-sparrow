@@ -7,8 +7,8 @@ draft: false
 author : "Todd Schimmell"
 
 # post thumb
-metaimage: "/images/blog/iguana.jpg"
-image: "/images/blog/iguana.jpg"
+metaimage: "https://authortodd.b-cdn.net/images/blog/iguana.jpg"
+image: "https://authortodd.b-cdn.net/images/blog/iguana.jpg"
 url: "/blog/carl-and-iguana"
 
 
@@ -28,7 +28,7 @@ event: ""
 
 I've had Iguana sketched on paper for about a month. I finally got to put him in the computer for 'Carl The Chameleon'.
 
-![Everything Must Go Illustration](/images/blog/iguana-small.png)
+![Everything Must Go Illustration](https://authortodd.b-cdn.net/images/blog/iguana-small.png)
 
 He's only in the story one time but I'm definitely digging his vibe. Between Carl and 'The Elephant Tooted' (2/2/22), this first half of the year is going to be pretty jam packed with giggles and wonderful life lessons!
 

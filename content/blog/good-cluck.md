@@ -23,7 +23,7 @@ event: ""
 ---
 ---
 
-![Good Cluck](/images/blog/good-cluck.png)
+![Good Cluck](https://authortodd.b-cdn.net/images/blog/good-cluck.png)
 
 # Both are amazing in what they can grow.
 

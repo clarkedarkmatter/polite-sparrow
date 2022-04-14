@@ -11,7 +11,7 @@ author : "Todd Schimmell"
 #Snipcart/Amazon Button Generate
 
 afflink: ""
-image: "/images/blog/bear-post.png"
+image: "https://authortodd.b-cdn.net/images/blog/bear-post.png"
 price: "12.00"
 url: "/blog/bear-says-quack"
 full_url: "https://authortodd.com/blog/bear-says-quack"
@@ -27,6 +27,7 @@ post: ""
 event: ""
 ---
 ---
+
 
 #### Bear Says Quack is the third book in the Kids' Compass Series.
 

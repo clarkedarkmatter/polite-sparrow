@@ -7,7 +7,7 @@ draft: true
 author : "Todd Schimmell"
 
 # post thumb
-image: "/images/blog/empty-canvas.png"
+image: "https://authortodd.b-cdn.net/images/blog/empty-canvas.png"
 
 # meta description
 description: "Hair Stare is a poem about different kinds of people."
